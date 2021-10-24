@@ -1,20 +1,28 @@
-- title: 홈
+- title: HOME
   url: /
   external: false
 
-- title: 기록 보관소
+- title: ARCHIVE
   url: /archive/
   external: false
 
-- title: 프로젝트
+- title: PROJECTS
   url: /project/
   external: false # set true if you using external link, see below
 
-- title: 윤수
+- title: YUNSU
   url: /about/
   external: false # set true if you using external link, see below
 
+- title: CATEGORIES
+  url: /categories/
+  external: false # set true if you using external link, see below
+
+- title: CONTACT
+  url: /contact/
+  external: false # set true if you using external link, see below
+
 # Example:
-- title: 깃허브🔗
-  url: https://github.com/mniYUNSU
-  external: true
+# - title: GITHUB🔗
+#   url: https://github.com/mniYUNSU
+#   external: true

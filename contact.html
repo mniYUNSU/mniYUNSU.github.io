@@ -1,0 +1,39 @@
+---
+title: CONTACT
+permalink: /contact/
+layout: page
+---
+
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  class="contact-article"
+  action="https://formspree.io/f/mknkapjr"
+  method="POST"
+>
+  <label for="contact-name"> 성함 <span class="required">*</span> </label
+  ><input
+    type="text"
+    name="이름"
+    id="contact-name"
+    placeholder="성함을 입력해주세요."
+    required="required"
+  />
+  <label for="contact-email">
+    이메일 주소 <span class="required">*</span> </label
+  ><input
+    type="email"
+    id="contact-email"
+    name="이메일 주소"
+    placeholder="email@website.com"
+    required="required"
+  />
+  <label for="contact-message"> 메세지 <span class="required">*</span> </label
+  ><textarea
+    name="메세지"
+    id="contact-message"
+    placeholder="전달하실 내용을 입력해주세요."
+    required="required"
+  ></textarea>
+  <!-- your other form fields go here -->
+  <button id="contact-submit" type="submit">보내기</button>
+</form>

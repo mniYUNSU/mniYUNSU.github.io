@@ -240,6 +240,15 @@ body[data-theme='dark'] {
       color: $dark-gray;
       opacity: 1;
     }
+    #footerbutton {
+      a {
+        &:hover,
+        &:active,
+        &:focus {
+          color: $dark-text-link-blue-active;
+        }
+      }
+    }
   }
 
   // 404 Page
@@ -262,6 +271,17 @@ body[data-theme='dark'] {
   // Author Post
   .author-post {
     border-color: $dark-light;
+    #footerbutton {
+      a {
+        color: $dark-text-link-blue;
+        &:hover {
+          color: $dark-text-link-blue-active;
+        }
+        &:focus {
+          color: $dark-text-link-blue;
+        }
+      }
+    }
   }
 
   .search-article {
@@ -271,5 +291,44 @@ body[data-theme='dark'] {
         color: rgba(128, 128, 128, 0.8);
       }
     }
+  }
+}
+
+.contact-article {
+  input[type='text'] {
+    color: $dark-text-base-color;
+    -webkit-appearance: none;
+    font-size: $base-font-size;
+    border: 3px solid $dark-light;
+  }
+  input[type='email'] {
+    color: $dark-text-base-color;
+    -webkit-appearance: none;
+    font-size: $base-font-size;
+    border: 3px solid $dark-light;
+  }
+  textarea {
+    color: $dark-text-base-color;
+    -webkit-appearance: none;
+    font-size: $base-font-size;
+    resize: none;
+    border: 3px solid $dark-light;
+  }
+  #contact-submit {
+    background-color: $light;
+    border: 2px solid $light;
+    color: $black;
+    transition: 0.3s;
+    &:active,
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      border-color: $dark-text-link-blue-active;
+      background-color: $dark-text-link-blue-active;
+      color: $light;
+    }
+  }
+  .required {
+    color: $dark-category-text-link-blue;
   }
 }

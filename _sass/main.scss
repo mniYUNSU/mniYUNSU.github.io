@@ -65,3 +65,19 @@ $on-widescreen: 1152px;
 // Import sass files
 @import 'klise/fonts', 'klise/base', 'klise/layout', 'klise/post',
   'klise/miscellaneous', 'klise/syntax', 'klise/dark';
+
+input:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+a:focus {
+  outline: none;
+}
