@@ -292,43 +292,37 @@ body[data-theme='dark'] {
       }
     }
   }
-}
 
-.contact-article {
-  input[type='text'] {
-    color: $dark-text-base-color;
-    -webkit-appearance: none;
-    font-size: $base-font-size;
-    border: 3px solid $dark-light;
-  }
-  input[type='email'] {
-    color: $dark-text-base-color;
-    -webkit-appearance: none;
-    font-size: $base-font-size;
-    border: 3px solid $dark-light;
-  }
-  textarea {
-    color: $dark-text-base-color;
-    -webkit-appearance: none;
-    font-size: $base-font-size;
-    resize: none;
-    border: 3px solid $dark-light;
-  }
-  #contact-submit {
-    background-color: $light;
-    border: 2px solid $light;
-    color: $black;
-    transition: 0.3s;
-    &:active,
-    &:hover,
-    &:focus {
-      cursor: pointer;
-      border-color: $dark-text-link-blue-active;
-      background-color: $dark-text-link-blue-active;
+  .contact-article {
+    input[type='text'] {
+      border: 3px solid $dark-light;
       color: $light;
     }
-  }
-  .required {
-    color: $dark-category-text-link-blue;
+    input[type='email'] {
+      border: 3px solid $dark-light;
+      color: $light;
+    }
+    textarea {
+      resize: none;
+      border: 3px solid $dark-light;
+      color: $light;
+    }
+    #contact-submit {
+      background-color: $light;
+      border: 2px solid $light;
+      color: $black;
+      transition: 0.3s;
+      &:active,
+      &:hover,
+      &:focus {
+        cursor: pointer;
+        border-color: $dark-text-link-blue-active;
+        background-color: $dark-text-link-blue-active;
+        color: $light;
+      }
+    }
+    .required {
+      color: $dark-category-text-link-blue;
+    }
   }
 }
