@@ -14,9 +14,18 @@
   backdrop-filter: blur(30px);
   margin-right: auto;
   margin-left: auto;
+  transition: top 0.3s;
   border-bottom: 3px solid $light;
   padding: $spacing-full - 15px $spacing-full;
   @extend %clearfix;
+}
+
+.shownav {
+  top: 0;
+}
+
+.hidenav {
+  top: -100px;
 }
 
 // Navigation

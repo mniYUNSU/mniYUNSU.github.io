@@ -280,3 +280,32 @@
     </div>
   </nav>
 </div>
+<script>
+  var lastScrollTop = 0;
+  var delta = 15;
+  var navBox = document.querySelector('.navbar');
+  var navBoxHeight = navBox.offsetHeight;
+  var didScroll;
+  console.log(lastScrollTop, delta, navBox, navBoxHeight, didScroll);
+
+  setInterval(function () {
+    if (!didScroll) {
+      hasScrolled();
+      didScroll = false;
+    }
+  }, 250);
+
+  function hasScrolled() {
+    var nowScrollTop = window.scrollY;
+    if (Math.abs(lastScrollTop - nowScrollTop) <= delta) {
+      return;
+    } else if (lastScrollTop - nowScrollTop < 0) {
+      navBox.classList.remove('shownav');
+      navBox.classList.add('hidenav');
+    } else if (nowScrollTop - lastScrollTop < 0) {
+      navBox.classList.remove('hidenav');
+      navBox.classList.add('shownav');
+    }
+    lastScrollTop = nowScrollTop;
+  }
+</script>
