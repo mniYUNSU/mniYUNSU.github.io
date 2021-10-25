@@ -28,6 +28,16 @@
   top: -100px;
 }
 
+@include media-query($on-mobile) {
+  .shownav {
+    top: 0;
+  }
+
+  .hidenav {
+    top: -100px;
+  }
+}
+
 // Navigation
 .menu {
   user-select: none;
@@ -38,7 +48,7 @@
     float: left;
     left: 8px;
     top: 6px;
-    position: relative;
+    position: fixed;
     clear: both;
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
@@ -132,14 +142,6 @@
     background-color: $white;
     border-bottom: 5px solid $light;
     transition: top 0.3s;
-
-    .shownav {
-      top: 0;
-    }
-
-    .hidenav {
-      top: -50px;
-    }
 
     a#mode {
       left: 10px;
