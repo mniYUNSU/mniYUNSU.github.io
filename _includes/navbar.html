@@ -284,6 +284,7 @@
   var lastScrollTop = 0;
   var delta = 15;
   var navBox = document.querySelector('.navbar');
+  var menuBox = document.querySelector('.menu');
   var navBoxHeight = navBox.offsetHeight;
   var didScroll;
 
@@ -302,9 +303,13 @@
     } else if (lastScrollTop - nowScrollTop < 0) {
       navBox.classList.remove('shownav');
       navBox.classList.add('hidenav');
+      menuBox.classList.remove('shownav');
+      menuBox.classList.add('hidenav');
     } else if (nowScrollTop - lastScrollTop < 0) {
       navBox.classList.remove('hidenav');
       navBox.classList.add('shownav');
+      menuBox.classList.remove('hidenav');
+      menuBox.classList.add('shownav');
     }
     lastScrollTop = nowScrollTop;
   }
