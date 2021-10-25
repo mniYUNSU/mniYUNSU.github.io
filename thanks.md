@@ -13,3 +13,6 @@ Thanks to amazing people that i met, who help me out from follishness, connectin
 <hr>
 
 Hopefully the knowledge that I got from them can be useful, and become a charity for them, Aamiin.
+
+- a
+- b
