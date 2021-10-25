@@ -217,6 +217,7 @@
     -webkit-animation: 0.5s ease-in forwards fadein;
     animation: 0.5s ease-in forwards fadein;
     opacity: 1;
+    box-shadow: 0px 0px 10px #000;
   }
 
   .author-name {
@@ -261,6 +262,7 @@
     position: absolute;
     top: 15%;
     left: 5%;
+    box-shadow: 0px 0px 10px #000;
   }
 
   .author-post-name {

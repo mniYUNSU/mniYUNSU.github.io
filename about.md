@@ -7,7 +7,8 @@ comments: false
 ---
 
 <figure>
-<img src="./avatar.jpg" alg="yunsu bae">
+<img src="./avatar.jpg" alg="yunsu bae" style="border-radius: 30px ;box-shadow:0px 0px 10px #000">
+
 <figcaption>Fig 1. 안녕하세요! 웹 개발자가 되기 위해 열심히 공부하고있는 배윤수 입니다! 👋</figcaption>
 </figure>
 
