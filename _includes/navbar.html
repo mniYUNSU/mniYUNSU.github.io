@@ -295,7 +295,8 @@
   }, 250);
 
   function hasScrolled() {
-    var nowScrollTop = window.scrollY;
+    var nowScrollTop =
+      document.body.scrollTop || document.documentElement.scrollTop;
     if (Math.abs(lastScrollTop - nowScrollTop) <= delta) {
       return;
     } else if (lastScrollTop - nowScrollTop < 0) {
