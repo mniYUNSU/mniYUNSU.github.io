@@ -526,7 +526,6 @@
   bottom: 50px;
   outline: 0;
   z-index: 9999;
-  transition: 0.3s;
 
   .fas {
     position: absolute;
@@ -535,19 +534,31 @@
   }
 
   @include media-query($on-mobile) {
-    background-color: transparent;
-    border: none;
-    width: 0;
-    height: 0;
-    color: transparent;
-    outline: 0;
-    font-size: 0;
-    z-index: -1;
-    right: -10px;
-    bottom: -10px;
+    // background-color: transparent;
+    // border: none;
+    // width: 0;
+    // height: 0;
+    // color: transparent;
+    // outline: 0;
+    // font-size: 0;
+    // z-index: -1;
+    // right: -10px;
+    // bottom: -10px;
+    // .fas {
+    //   border: none;
+    //   color: transparent;
+    // }
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 10px;
+    font-size: 1.5em;
+    bottom: 90px;
     .fas {
-      border: none;
-      color: transparent;
+      position: absolute;
+      line-height: 1.5em;
+      left: 7px;
+      top: -3px;
     }
   }
 

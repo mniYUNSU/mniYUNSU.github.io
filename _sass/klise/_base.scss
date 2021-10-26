@@ -9,7 +9,7 @@
 
 .notransition {
   -webkit-transition: none;
-  -moz-transition: none; 
+  -moz-transition: none;
   -ms-transition: none;
   -o-transition: none;
   transition: none;
@@ -50,10 +50,10 @@ body {
   font: $normal-weight #{$base-font-size}/#{$base-line-height} $sans-family;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
-  -webkit-font-feature-settings: "kern" 1;
-  -moz-font-feature-settings: "kern" 1;
-  -o-font-feature-settings: "kern" 1;
-  font-feature-settings: "kern" 1;
+  -webkit-font-feature-settings: 'kern' 1;
+  -moz-font-feature-settings: 'kern' 1;
+  -o-font-feature-settings: 'kern' 1;
+  font-feature-settings: 'kern' 1;
   font-kerning: normal;
   box-sizing: border-box;
 }
@@ -142,7 +142,7 @@ ul {
     text-align: -webkit-match-parent;
   }
   li::before {
-    content: "\FE63";
+    content: '\FE63';
     display: inline-block;
     top: -1px;
     width: 1.2em;
@@ -343,7 +343,7 @@ table {
 
 // Clearfix
 %clearfix:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
