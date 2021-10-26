@@ -1,14 +1,19 @@
 ---
 layout: post
-title: '자바스크립트의 변수 선언 방식'
-date: 2021-10-22 09:29:20 +0700
+title: 자바스크립트의 변수 선언 방식
+date: 2021-10-22 09:29:20 +07:00
 categories: [Javascript Essentials]
 tags: [Javascript]
 description: var, let, const는 Javascript의 변수 선언 방식이다.
-image: /var-let-const/javascript-logo.jpg
+image: '/var-let-const/javascript-logo.jpg'
 ---
 
-<img src="{{ page.image }}" alt="javascript logo">
+<img src="/var-let-const/javascript-logo.jpg" alt="javascript logo">
+
+<figure>
+<img src="./javascript-logo.jpg" alg="yunsu bae" style="border-radius: 30px ;box-shadow:0px 0px 10px #000">
+<figcaption>test</figcaption>
+</figure>
 
 # let, var , const
 
