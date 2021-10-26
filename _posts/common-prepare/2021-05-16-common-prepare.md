@@ -29,7 +29,7 @@ description: 항상 대비하라.
 지금은 배운 지 얼마 되지 않은 병아리가 되기 전 닭의 알(?) 상태지만요...
 
 <figure>
-<img src="/common-prepare/preparation.png" alt="preparation hearthstone">
+<img src="./../../images/preparation.png" alt="preparation hearthstone">
 <figcaption>Fig 1. "항상 대비하라." - 도적 격언</figcaption>
 </figure>
 

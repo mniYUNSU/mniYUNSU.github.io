@@ -7,7 +7,7 @@ tags: [Javascript]
 description: 함수는 프로그래밍에 있어서, 특정 데이터 처리 방식을 하나의 기능으로 지정하여 그 기능을 수행하는 하나의 단위이다.
 ---
 
-<img src="/var-let-const/javascript-logo.jpg" alt="javascript logo">
+<img src="./../../images/javascript-logo.jpg" alt="javascript logo">
 
 # 함수
 

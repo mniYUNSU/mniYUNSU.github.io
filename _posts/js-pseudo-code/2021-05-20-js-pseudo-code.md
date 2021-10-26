@@ -17,7 +17,7 @@ description: 수도 코드(의사 코드, pseudo code)는 프로그램을 작성
 생각해보니까, 수도 코드라는 단어만 몰랐지, 일상 생활에서 자주 쓰는 개념이었다...
 
 <figure>
-<img src="/js-pseudo-code/petit.jpg" alt="le petit prince">
+<img src="./../../images/petit.jpg" alt="le petit prince">
 <figcaption>Fig 1. 어린 왕자</figcaption>
 </figure>
 

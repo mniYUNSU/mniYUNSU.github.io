@@ -8,7 +8,7 @@ description: 왜 개발자가 하고싶은지, 그리고 앞으로 경험과 지
 ---
 
 <figure>
-<img src="/common-prepare-second/364.gif" alt="preparation hearthstone">
+<img src="./../../images/364.gif" alt="preparation hearthstone">
 <figcaption>와우!! 황금 특급 카드!!</figcaption>
 </figure>
 
@@ -19,7 +19,7 @@ description: 왜 개발자가 하고싶은지, 그리고 앞으로 경험과 지
 개발자가 되기 위해 열심히 공부를 하고 있습니다. 아직은 초기라 경험이 많지도 않고, 지식이 많지도 않아 자신감과 의욕이 충만한(?) 상태입니다.
 
 <figure>
-<img src="/common-prepare-second/7a79c17941475.png" alt="더닝 크루거 곡선">
+<img src="./../../images/7a79c17941475.png" alt="더닝 크루거 곡선">
 <figcaption>더닝 크루거 곡선</figcaption>
 <figcaption>지금의 제 위치는 x축을 막 시작하여 우매함의 봉우리로 향하고 있습니다...</figcaption>
 </figure>
@@ -27,7 +27,7 @@ description: 왜 개발자가 하고싶은지, 그리고 앞으로 경험과 지
 시간이 흐르면서, 지식과 경험이 쌓이며 자신감이 떨어지거나, 배움의 벽에 막혀 지칠 때가 반드시 올 것이라 생각합니다.
 
 <figure>
-<img src="/common-prepare-second/mania-done.jpg" alt="hodong">
+<img src="./../../images/mania-done.jpg" alt="hodong">
 <figcaption>얕은 지식이 화를 부를텐데!!</figcaption>
 </figure>
 

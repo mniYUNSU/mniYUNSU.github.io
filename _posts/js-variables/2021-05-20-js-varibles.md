@@ -7,7 +7,7 @@ tags: [Javascript]
 description: Javascript의 변수 이름엔 공백을 쓸 수 없고, 이름이 길어질 경우, 단어의 첫 글자를 대문자로 표기합니다.
 ---
 
-<img src="/var-let-const/javascript-logo.jpg" alt="javascript logo">
+<img src="./../../images/javascript-logo.jpg" alt="javascript logo">
 
 # 변수
 
