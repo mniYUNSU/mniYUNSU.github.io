@@ -14,9 +14,11 @@
 - [x] utterances 사용하여 댓글 기능 구현
 - [x] 메일 보내기, 깃헙 링크 이동 구현
 - [x] 게시글마다 게시글 작성자 프로필 삽입
+- [x] 마크다운 폰트 `Fira Code` 적용
+- [x] GitHub Page가 Jekyll Plugin `jekyll-postfiles` 을 지원하지 않아 게시글 Post 시 오류 해결
+- [x] 스크롤 방향에 따라 Nav bar 시각화 구현
 
 ## 미구현
 
 - [ ] 게시글 공유하기
-- [ ] 스크롤 애니메이션
 - [ ] 좋아요 기능
