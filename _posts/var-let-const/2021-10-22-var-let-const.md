@@ -5,9 +5,10 @@ date: 2021-10-22 09:29:20 +0700
 categories: [Javascript Essentials]
 tags: [Javascript]
 description: var, let, const는 Javascript의 변수 선언 방식이다.
+image: /var-let-const/javascript-logo.jpg
 ---
 
-<img src="./javascript-logo.jpg" alt="javascript logo">
+<img src="{{ page.image }}" alt="javascript logo">
 
 # let, var , const
 
