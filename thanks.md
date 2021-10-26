@@ -30,7 +30,7 @@ comments: false
 
 ##### 기획 공통
 
-<img src="https://img.shields.io/badge/Jekyll-CC0000?style=flat-square&logo=Jekyll&logoColor=white"/> <img src="https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=Ruby&logoColor=white"/> <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=Markdown&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jekyll-CC0000?style=flat-square&logo=Jekyll&logoColor=white"/> <img src="https://img.shields.io/badge/SCSS-CC6699?style=flat-square&logo=Sass&logoColor=white"/> <img src="https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=Ruby&logoColor=white"/> <img src="https://img.shields.io/badge/Javascript-F36D00?style=flat-square&logo=JavaScript&logoColor=white"/> <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=Markdown&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/>
 
 - `Jekyll klise` 테마를 커스텀하여 제작
 - `Utterances` 사용한 댓글 기능 구현
