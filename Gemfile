@@ -19,7 +19,7 @@ gem 'github-pages', group: :jekyll_plugins
 # gem "github-pages", group: :jekyll_plugins
 # gem "github-pages"
 # gem "github-pages"
-# gem 'rdiscount'
+gem 'rdiscount'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
