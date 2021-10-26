@@ -10,11 +10,6 @@ image: '/var-let-const/javascript-logo.jpg'
 
 <img src="/var-let-const/javascript-logo.jpg" alt="javascript logo">
 
-<figure>
-<img src="./javascript-logo.jpg" alg="yunsu bae" style="border-radius: 30px ;box-shadow:0px 0px 10px #000">
-<figcaption>test</figcaption>
-</figure>
-
 # let, var , const
 
 `Javascript` 의 변수 선언 방식이다.
