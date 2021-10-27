@@ -1,19 +1,22 @@
 ---
 layout: post
-title: 'Node.JS와 브라우저의 차이점'
+title: 'Node.JS와 브라우저'
 date: 2021-10-22 09:29:20 +0700
+modified: 2021-10-28 16:49:47 +07:00
 categories: [Node.JS Essentials]
 tags: [Javascript, Node.JS]
 description: node.js와 브라우저의 차이점
 ---
 
-# Node.JS와 브라우저의 차이점
+# Node.JS와 브라우저
 
 `Node.JS`와 브라우저 둘 다 자바스크립트 언어를 기반으로 실행되며, 자바스크립트 엔진을 내장하고 있다.
 
 자바스크립트 엔진이라 함은, 크롬의 경우 V8 엔진, 파이어폭스는 스파이더몽키 등이 있다.
 
 `Node.JS`는 V8 엔진을 내장하고 있다.
+
+### Node.JS와 브라우저의 차이점
 
 차이점은 `Node.JS`와 브라우저의 존재 목적이다.
 

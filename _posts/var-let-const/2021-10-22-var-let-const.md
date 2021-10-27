@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 자바스크립트의 변수 선언 방식
+title: 자바스크립트 변수 선언 방식
 date: 2021-10-22 09:29:20 +07:00
 categories: [Javascript Essentials]
 tags: [Javascript]

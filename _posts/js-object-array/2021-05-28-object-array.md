@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 배열(Array)과 객체(Object)
+title: 배열과 객체
 date: 2021-05-28 09:29:20 +07:00
 categories: [Javascript Essentials]
 tags: [Javascript]
