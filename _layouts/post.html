@@ -87,6 +87,9 @@ layout: compress
           {% endif %}
         </div>
       </article>
+      {% if page.modified %}
+        <small class="post-updated-at">{{page.modified | date: "%Y년 %m월 %d일"}}에 수정됨</small>
+      {% endif %}
       {% include authorpost.html %}
 
       {% if page.comments %}
@@ -95,9 +98,7 @@ layout: compress
 
     </main>
 
-    {% if page.modified %}
-      <small class="post-updated-at">{{page.modified | date: "%Y년 %m월 %d일"}}에 수정됨</small>
-    {% endif %}
+    
     {% if page.next or page.previous %}
       {% include navigation.html %}
     {% endif %}
