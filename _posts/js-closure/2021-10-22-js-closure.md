@@ -7,8 +7,6 @@ tags: [Javascript, Closure]
 description: 클로저는 자바스크립트 고유의 개념이 아니라 함수를 일급 객체로 취급하는 함수형 프로그래밍 언어에 사용되는 특성이다.
 ---
 
-<img src="./../../images/javascript-logo.jpg" alt="javascript logo">
-
 # 클로저(Closure)
 
 클로저는 자바스크립트 고유의 개념이 아니라 함수를 일급 객체로 취급하는 함수형 프로그래밍 언어에 사용되는 특성이다.

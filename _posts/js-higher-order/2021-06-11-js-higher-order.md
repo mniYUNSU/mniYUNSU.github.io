@@ -7,8 +7,6 @@ tags: [Javascript]
 description: Javascript에서 함수는 일급 객체(First-class citizen)이다.
 ---
 
-<img src="./../../images/javascript-logo.jpg" alt="javascript logo">
-
 # 고차 함수 (Higher-order function)
 
 자바스크립트에서 함수는 **일급 객체(First-class citizen)**<sup id="user">[[1]](#user-ref)</sup>이다.

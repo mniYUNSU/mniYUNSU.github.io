@@ -7,8 +7,6 @@ tags: [Javascript]
 description: Spread 연산자(Operator) - 배열 또는 객체를 풀어서 인자로 전달하거나, 각각의 요소로 넣을 때 사용한다.
 ---
 
-<img src="./../../images/javascript-logo.jpg" alt="javascript logo">
-
 # Spread
 
 Spread 연산자는 배열 또는 객체를 풀어서 인자로 전달하거나, 각각의 요소로 넣을 때 사용된다. ES6에서 도입되었다.

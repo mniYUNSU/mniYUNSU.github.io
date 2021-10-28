@@ -8,8 +8,6 @@ description: var, let, const는 Javascript의 변수 선언 방식이다.
 image: 'javascript-logo.jpg'
 ---
 
-<img src="./../../images/javascript-logo.jpg" alt="javascript logo">
-
 # let, var , const
 
 `Javascript` 의 변수 선언 방식이다.

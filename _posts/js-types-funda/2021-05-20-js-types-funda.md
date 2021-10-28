@@ -7,8 +7,6 @@ tags: [Javascript]
 description: Javascript는 여러가지 타입, 자료형이 있습니다.
 ---
 
-<img src="./../../images/javascript-logo.jpg" alt="javascript logo">
-
 # 타입
 
 `Javascript`는 여러가지 타입, 자료형이 있다.

@@ -7,8 +7,6 @@ tags: [Javascript]
 description: 논리적인 데이터 처리를 위해 조건문을 사용할 수 있다.
 ---
 
-<img src="./../../images/javascript-logo.jpg" alt="javascript logo">
-
 # 조건문
 
 논리적인 데이터 처리를 위해 조건문을 사용할 수 있다.

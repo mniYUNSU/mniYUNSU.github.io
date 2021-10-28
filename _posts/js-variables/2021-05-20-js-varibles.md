@@ -7,8 +7,6 @@ tags: [Javascript]
 description: Javascript의 변수 이름엔 공백을 쓸 수 없고, 이름이 길어질 경우, 단어의 첫 글자를 대문자로 표기합니다.
 ---
 
-<img src="./../../images/javascript-logo.jpg" alt="javascript logo">
-
 # 변수
 
 프로그래밍을 한다는 것은, 데이터 처리 방식을 컴퓨터에 명령하는 것이다.

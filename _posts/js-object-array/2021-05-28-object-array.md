@@ -7,8 +7,6 @@ tags: [Javascript]
 description: 한 번에 다량의 데이터를 사용해야 할 때, 배열 또는 객체를 사용한다면, 단 한번의 선언으로 대량의 데이터를 다룰  수 있다.
 ---
 
-<img src="./../../images/javascript-logo.jpg" alt="javascript logo">
-
 # 배열(Array)
 
 한 번에 다량의 데이터를 사용해야 할 때, **배열** 또는 **객체를** 사용한다면, 단 한번의 선언으로 대량의 데이터를 다룰 수 있다.
