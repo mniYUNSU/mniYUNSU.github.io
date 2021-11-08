@@ -3,6 +3,7 @@ layout: post
 title: 콜백, 프로미스, async/await
 date: 2021-06-25 09:29:20 +07:00
 categories: [Javascript Essentials]
+modified: 2021-11-08 09:29:20 +07:00
 tags: [Javascript]
 description: 콜백 함수와 프로미스 객체, async 와 await.
 ---
@@ -71,8 +72,8 @@ printAll();
 
 # 프로미스(Promise)
 
-`promise`는 `callback chain`을 핸들링할 수 있는 하나의 `Class`입니다.
-`promise`는 `resolve`와 `reject`로 함수를 실행하거나, 에러를 핸들링할 수 있습니다.
+`promise`는 `callback chain`을 핸들링할 수 있는 하나의 `Class`이다.
+`promise`는 `resolve`와 `reject`로 함수를 실행하거나, 에러를 핸들링할 수 있다.
 
 ```js
 const printString = (string) => {

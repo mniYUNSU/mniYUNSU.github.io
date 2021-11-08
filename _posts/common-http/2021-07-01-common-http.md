@@ -2,7 +2,7 @@
 layout: post
 title: 'HTTP는 무엇일까?'
 date: 2021-07-01 09:29:20 +0700
-modified: 2021-11-06 16:49:47 +07:00
+modified: 2021-11-08 16:49:47 +07:00
 categories: [HTTP & Network]
 tags: [HTTP, CS]
 description: HTTP는 무엇일까?
@@ -62,7 +62,7 @@ URL은 `Scheme`, `Hosts`, `URL-Path`로 구분된다.
 
 **URI**는 `Uniform Resource Identifier`의 줄임말이다. `URI`는 `URL`의 구성요소 + `query`, `bookmark`를 포함한다.
 
-`query`는 웹 서버에 보내는 추가적인 질문입니다.
+`query`는 웹 서버에 보내는 추가적인 질문이다.
 
 <figure>
 <img src="./../../images/common-http1.png" alt="common-http1">
