@@ -3,7 +3,7 @@ layout: post
 title: 'HTTP는 무엇일까?'
 date: 2021-07-01 09:29:20 +0700
 modified: 2021-11-08 16:49:47 +07:00
-categories: [HTTP & Network]
+categories: [Network]
 tags: [HTTP, CS]
 description: HTTP는 무엇일까?
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: 'REST API란?'
 date: 2021-11-06 09:29:20 +0700
-categories: [HTTP & Network]
+categories: [Network]
 tags: [CS, HTTP]
 description: RESTful 하다는 것은? 리소스 중심의 올바른 엔드포인트 작성, 적절한 응답 상태 코드, 리소스에 대한 정보 기재, CRUD에 적합한 HTTP 메소드 사용
 ---
