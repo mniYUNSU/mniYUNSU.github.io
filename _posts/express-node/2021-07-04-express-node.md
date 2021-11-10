@@ -2,6 +2,7 @@
 layout: post
 title: 'Express.js for Web Server'
 date: 2021-07-04 09:29:20 +0700
+modified: 2021-11-10 09:29:20 +0700
 categories: [Express.js Essentials]
 tags: [Express.js, Node.js]
 description: Express.js for Web Server
@@ -9,12 +10,18 @@ description: Express.js for Web Server
 
 # Express.js
 
-`Express`는 `Javascript`에서 인기있는 프레임워크 4가지(MongoDB, Express, React, Node) 중 하나에 속하는 프레임워크이다.
-Node 환경에서 웹 서버 또는 API 서버를 제작하기 위해 사용되는 프레임워크 이다.
+**Express.js**는 Node.js를 위한 빠르고 개방적인 간결한 웹 프레임워크다.
 
-Node 환경에서 HTTP 모듈로만 사용하는 것은 코드의 가독성이 떨어지며, 구현하기 귀찮은 작업들이 다소 있기 때문이다.
+Node.js만을 사용한 경우, `HTTP` 요청, 쿠키 파싱, 세션 관리, 라우팅 등 위 같은 작업들은 동일한 코드를 지속적으로 작성해야한다. Express.js는 이러한 문제를 각종 라이브러리와 미들웨어를 통해 해결할 수 있고 동시에 웹 앱에서 `MVC` 패턴의 구조를 제공한다.
 
-그렇다면, Express는 HTTP 모듈로 구현하는 것과 어떤 차이가 있길래 Express가 JS의 인기 프레임워크가 됐을까?
+쉽게 말하자면, **Express.js는 Node.js를 사용하여 쉽게 서버를 구성할 수 있게 만든 클래스와 라이브러리의 집합**이다.
+
+Express.js는 `Javascript`에서 인기있는 프레임워크 4가지(MongoDB, Express, React, Node) 중 하나에 속하는 프레임워크이다.
+Node.js 환경에서 웹 서버 또는 API 서버를 제작하기 위해 사용되는 프레임워크 이다.
+
+Node.js 환경에서 HTTP 모듈로만 사용하는 것은 코드의 가독성이 떨어지며, 구현하기 귀찮은 작업들이 다소 있기 때문이다.
+
+그렇다면, Express.js는 HTTP 모듈로 구현하는 것과 어떤 차이가 있길래 Express.js가 JS의 인기 프레임워크가 됐을까?
 
 첫 번째로, `Middleware`. **미들웨어 추가**가 편리하다.
 두 번째로, **자체 라우터를 제공**한다.
@@ -149,7 +156,7 @@ const requestHandler = (req, res) => {
 
 위처럼 `if` 조건문을 사용해 구현할 수 있었다.
 
-`Express.js` 에서 제공하는 라우터 기능을 사용하여 더 직관적인 코드를 작성할 수 있다.
+Express.js 에서 제공하는 라우터 기능을 사용하여 더 직관적인 코드를 작성할 수 있다.
 
 ```js
 const router = express.Router();
