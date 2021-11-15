@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mniyunsu.github.io/sitemap.xml
