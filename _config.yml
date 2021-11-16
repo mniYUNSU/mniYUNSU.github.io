@@ -4,7 +4,7 @@ description: >- # site description
   웹 개발자가 되기 위해 열심히 공부하고 있는 배윤수 입니다!
   예술의 영역을 동경하고 있습니다.
   함께 지식을 나누고, 소통하고 싶습니다! 😆
-lang: en-US # default lang
+lang: ko # default lang
 timezone: Asia/Seoul # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
 repo: https://github.com/mniYUNSU # site repo [optional]
