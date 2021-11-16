@@ -10,6 +10,37 @@ comments: false
 
 <br>
 
+# Three.js로 오징어 게임🦑 만들기
+
+**Web Game**
+<br>_2021.11 - 2021.11_ <br>
+
+<figure>
+<img src="./squidgame.gif" alg="mniYUNSU Squid-Game" style="border-radius: 50px ;box-shadow:0px 0px 10px #000" >
+<figcaption>Fig 1. 무궁화 꽃이 피었습니다~👧</figcaption>
+</figure>
+
+#### 배포 URL 및 프로젝트 문서
+
+<i class="fas fa-link"></i>
+<a href="https://squid-game-mniyunsu.vercel.app/" target="_blank" rel="noopener" > 게임하러 가기</a>
+**|** <i class="fab fa-github"></i> <a href="https://github.com/mniYUNSU/Squid-Game" target="_blank" rel="noopener"> 프로젝트 Repository</a>
+
+#### 사용한 기술
+
+<img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"/> <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=Three.js&logoColor=white"/> <img src="https://img.shields.io/badge/Javascript-F36D00?style=flat-square&logo=JavaScript&logoColor=white"/> <img src="https://img.shields.io/badge/GreenSock-88CE02?style=flat-square&logo=GreenSock&logoColor=white"/> <img src="https://img.shields.io/badge/Sketchfab-1CAAD9?style=flat-square&logo=Sketchfab&logoColor=white"/> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=Vercel&logoColor=white"/>
+
+- `Three.js` 활용한 웹 게임
+- `GreenSock` 활용한 애니메이션 구현
+- `Sketchfab`에 공유된 영희 3D 모델 적용
+- `Vercel` 정적 페이지 호스팅
+
+<br>
+
+---
+
+<br>
+
 # 개인 기술 블로그
 
 **GitHub Page**
@@ -17,7 +48,7 @@ comments: false
 
 <figure>
 <img src="./myblog.png" alg="mniYUNSU github io" style="border-radius: 50px ;box-shadow:0px 0px 10px #000" >
-<figcaption>Fig 1. mniYUNSU.github.io</figcaption>
+<figcaption>Fig 2. mniYUNSU.github.io</figcaption>
 </figure>
 
 #### 배포 URL 및 프로젝트 문서
@@ -27,8 +58,6 @@ comments: false
 **|** <i class="fab fa-github"></i> <a href="https://github.com/mniYUNSU/mniYUNSU.github.io" target="_blank" rel="noopener"> 프로젝트 Repository</a>
 
 #### 사용한 기술
-
-##### 기획 공통
 
 <img src="https://img.shields.io/badge/Jekyll-CC0000?style=flat-square&logo=Jekyll&logoColor=white"/> <img src="https://img.shields.io/badge/SCSS-CC6699?style=flat-square&logo=Sass&logoColor=white"/> <img src="https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=Ruby&logoColor=white"/> <img src="https://img.shields.io/badge/Javascript-F36D00?style=flat-square&logo=JavaScript&logoColor=white"/> <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=Markdown&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/>
 
@@ -51,7 +80,7 @@ comments: false
 
 <figure>
 <img src="./ddo_jurimma_thumbnail.png" alg="jurimma thumbnail"  style="border-radius: 50px ;box-shadow:0px 0px 10px #000">
-<figcaption>Fig 2. 신세대 줄임말 단어 검색 서비스</figcaption>
+<figcaption>Fig 3. 신세대 줄임말 단어 검색 서비스</figcaption>
 </figure>
 
 #### 배포 URL 및 프로젝트 문서
