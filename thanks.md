@@ -12,7 +12,7 @@ comments: false
 
 # Three.js로 오징어 게임🦑 만들기
 
-**Web Game**
+**Toy Web Game**
 <br>_2021.11 - 2021.11_ <br>
 
 <figure>
