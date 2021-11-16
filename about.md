@@ -33,11 +33,11 @@ comments: false
 
 ##### 익숙하지 않지만 사용해본 기술
 
-|        분류        |                                                                                                                                                                             기술                                                                                                                                                                             |
-| :----------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| **FRONT <br> END** |                                                                                                                             <img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=Redux&logoColor=white"/>                                                                                                                              |
-| **BACK <br> END**  | <img src="https://img.shields.io/badge/AWS%20(ELB),%20CloudFront,%20Route53)-232F3E?style=flat-square&logo=Amazon AWS&logoColor=white"/> <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=json web tokens&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white"/> |
-|     **COMMON**     |                                                                                                                             <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white"/>                                                                                                                              |
+|        분류        |                                                                                                                                                                                                         기술                                                                                                                                                                                                          |
+| :----------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| **FRONT <br> END** | <img src="https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=Redux&logoColor=white"/> <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=Three.js&logoColor=white"/> <img src="https://img.shields.io/badge/SCSS-CC6699?style=flat-square&logo=Sass&logoColor=white"/> <img src="https://img.shields.io/badge/Jekyll-CC0000?style=flat-square&logo=Jekyll&logoColor=white"/> |
+| **BACK <br> END**  |                             <img src="https://img.shields.io/badge/AWS%20(ELB),%20CloudFront,%20Route53)-232F3E?style=flat-square&logo=Amazon AWS&logoColor=white"/> <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=json web tokens&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white"/>                              |
+|     **COMMON**     |                                                                                                       <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white"/> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=Vercel&logoColor=white"/>                                                                                                       |
 
 <br>
 
@@ -113,8 +113,6 @@ comments: false
 #### Nomad Coders
 
 바닐라 JS로 크롬 앱 만들기
-
-소프트웨어 엔지니어링 부트캠프 30기
 
 - `Javascript` `ES6 Class`, `Array`, `Object` 기본 개념 및 활용법
 - `Open API`를 활용한 `fetch` 활용법
