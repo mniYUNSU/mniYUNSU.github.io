@@ -3,6 +3,7 @@ layout: post
 title: React의 작동 원리
 date: 2021-11-11 00:00:00 +0700
 categories: [React Essentials]
+modified: 2021-11-16 09:29:20 +07:00
 tags: [React]
 description: React의 작동 원리
 ---
@@ -39,7 +40,7 @@ React가 화면의 변경 사항만 바꿀 수 있게 하는 핵심 기술은 `V
 <figcaption>Fig 1. Virtual DOM</figcaption>
 </figure>
 
-React는 위 설명처럼 직접 DOM을 조작하지 않고, `Virtual DOM`을 생성하여 브라우저가 이를 렌더링한다. 이 `Virtual DOM`을 React 엘리먼트라고 하는데, React 엘리면트는 HTML 엘리면트와 비슷하지만, 실제론 **자바스크립트 객체**이다.
+React는 위 설명처럼 직접 DOM을 조작하지 않고, `Virtual DOM`을 생성하여 브라우저가 이를 렌더링한다. 이 `Virtual DOM`을 React 엘리먼트라고 하는데, React 엘리먼트는 HTML 엘리먼트와 비슷하지만, 실제론 **자바스크립트 객체**이다.
 
 React에서 모든 컴포넌트들은 `div#root`라는 최상위 엘리먼트의 자손이다. 즉, `Virtual DOM`은 `div#root`의 자손들에만 적용되며, `div#root`의 부모인 `body` 엘리먼트에 대해선 해당 사항이 없다.
 
