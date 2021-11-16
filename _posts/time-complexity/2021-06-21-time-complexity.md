@@ -2,6 +2,7 @@
 layout: post
 title: 시간 복잡도
 date: 2021-06-21 09:29:20 +07:00
+modified: 2021-11-16 09:29:20 +07:00
 categories: [Common]
 tags: [Algorithm, Common]
 description: 시간 복잡도는 문제를 해결하는데 걸리는 시간과 입력의 함수 관계를 가리킨다.
@@ -28,5 +29,5 @@ description: 시간 복잡도는 문제를 해결하는데 걸리는 시간과 �
 
 ### Reference
 
-- <a href="https://ko.wikipedia.org/wiki/%EC%8B%9C%EA%B0%84_%EB%B3%B5%EC%9E%A1%EB%8F%84">시간 복잡도</a>
-- <a href="https://velog.io/@raram2/big-o-notation-and-time-complexity">빅오 표기법과 시간 복잡도 계산, 그리고 알고리즘 개선하기</a>
+- <a href="https://ko.wikipedia.org/wiki/%EC%8B%9C%EA%B0%84_%EB%B3%B5%EC%9E%A1%EB%8F%84" target="_blank" rel="noopener">시간 복잡도</a>
+- <a href="https://velog.io/@raram2/big-o-notation-and-time-complexity" target="_blank" rel="noopener">빅오 표기법과 시간 복잡도 계산, 그리고 알고리즘 개선하기</a>

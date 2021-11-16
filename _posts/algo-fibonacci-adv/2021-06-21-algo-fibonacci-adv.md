@@ -82,4 +82,4 @@ let fibonacci = function (n) {
 
 ### Reference
 
-- <a href="https://ko.wikipedia.org/wiki/%EB%A9%94%EB%AA%A8%EC%9D%B4%EC%A0%9C%EC%9D%B4%EC%85%98">Dynamic with memoization</a>
+- <a href="https://ko.wikipedia.org/wiki/%EB%A9%94%EB%AA%A8%EC%9D%B4%EC%A0%9C%EC%9D%B4%EC%85%98" target="_blank" rel="noopener">Dynamic with memoization</a>

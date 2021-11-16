@@ -74,7 +74,6 @@ function fibonacci(number) {
 
 ### Reference
 
-- <a href="https://ko.wikipedia.org/wiki/%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98_%EC%88%98
-  " target="_blank" rel="noopener">피보나치 수(Fibonacci numbers)</a>
+- <a href="https://ko.wikipedia.org/wiki/%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98_%EC%88%98" target="_blank" rel="noopener">피보나치 수(Fibonacci numbers)</a>
 - <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/push" target="_blank" rel="noopener">Array.push() MDN</a>
 - <a href="https://poiemaweb.com/js-immutability" target="_blank" rel="noopener">Mutable value vs. Immutable value</a>
