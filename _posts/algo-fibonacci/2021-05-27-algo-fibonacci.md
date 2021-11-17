@@ -58,7 +58,7 @@ function fibonacci(number) {
 
 <figure>
 <img src="./../../images/fibonacci8.png" alt="fibonacci result">
-<figcaption>Fig 2. fibhnacci(8) 실행 결과</figcaption>
+<figcaption>Fig 2. fibonacci(8) 실행 결과</figcaption>
 </figure>
 
 `fibonacci` 함수에 8을 입력 인자로 할당하면, 0번째 자리인 0을 포함해 총 9개의 요소를 가진 피보나치 수 배열을 출력한다.
