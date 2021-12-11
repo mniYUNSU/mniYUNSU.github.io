@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '마음가짐 (2)'
-date: 2021-05-19 09:29:20 +0700
+date: 2021-07-19 09:29:20 +0700
 categories: [Small Talk]
 tags: [Small Talk]
 description: 왜 개발자가 하고싶은지, 그리고 앞으로 경험과 지식을 쌓아가다 지칠 때, 이 글을 보며 마음가짐을 다잡기 위함을 목적으로 기록했습니다.

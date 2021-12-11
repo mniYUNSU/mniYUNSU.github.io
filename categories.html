@@ -6,7 +6,7 @@ excerpt: Sorted article by categories.
 ---
 
 <div class="archive-categories">
-  <a class="category-item" href="#">all</a>
+  <b><a class="category-item" href="#">ALL</a></b>
   {%- for category in site.categories -%} {% capture name %}{{ category | first
   }}{% endcapture %}
   <a class="category-item" href="#{{name}}">{{ name }}</a>

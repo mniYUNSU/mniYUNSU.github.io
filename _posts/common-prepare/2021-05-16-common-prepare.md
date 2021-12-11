@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '마음가짐'
-date: 2021-05-16 09:29:20 +0700
+date: 2021-07-16 09:29:20 +0700
 categories: [Small Talk]
 tags: [Small Talk]
 description: 항상 대비하라.
