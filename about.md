@@ -16,6 +16,8 @@ comments: false
 >
 > 아는 것 뿐만 아니라, 적용할 줄 아는 개발자가 되고자 노력하고 있습니다. -->
 
+---
+
 # Info
 
 - <i class="fab fa-github"></i> <a href="https://github.com/mniYUNSU" target="_blank" rel="noopener">GitHub Repository</a>
