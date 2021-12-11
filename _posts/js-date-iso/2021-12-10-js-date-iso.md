@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Date 객체와 날짜 변환 방법
+title: Date 객체와 ISO 8601
 date: 2021-12-10 09:29:20 +07:00
 categories: [Javascript Essentials]
-tags: [Javascript]
+tags: [Javascript, ISO]
 description: Date 객체와 여러가지 날짜 변환 방법
 ---
 
