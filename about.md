@@ -2,7 +2,7 @@
 title: ABOUT YUNSU
 permalink: /about/
 layout: page
-excerpt: 안녕하세요! 웹 개발자가 되기 위해 열심히 공부하고있는 배윤수 입니다!
+excerpt: 안녕하세요! 주니어 프론트엔드 개발자 배윤수 입니다!
 comments: false
 ---
 
