@@ -58,7 +58,7 @@ console.log(date)
 
 이를 위해 **날짜와 시간과 관련된 데이터 교환을 다루는 국제 표준**이 있다.
 
-그것이 ISO 8601 이며, 정식 명칭은 `Date elements and interchange formats - Information interchange - Representation of dates and times` 이다.
+그것이 ISO 8601 이며, 정식 명칭은 **Date elements and interchange formats - Information interchange - Representation of dates and times** 이다.
 
 시간과 관련된 데이터 교환을 다루는 국제 표준 ISO 8601의 목적은 아래와 같다.
 
