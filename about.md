@@ -53,7 +53,7 @@ comments: false
 
 소프트웨어 엔지니어 / 프론트엔드
 
-- 모바일 소셜 독서 플랫폼 <a href="https://www.texture.kr/" target="_blank" rel="noopener">texture</a> 백 오피스 개발
+- 모바일 소셜 독서 플랫폼 **<a href="https://www.texture.kr/" target="_blank" rel="noopener">texture</a>** 백 오피스 개발
 
 ### 2019.07 - 2019.12
 
