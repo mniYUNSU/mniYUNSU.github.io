@@ -81,6 +81,62 @@ console.log(date)
 날짜 객체를 위와 같은 ISO 8601로 변환하기 위한 다양한 방법이 있다.
 여기에선 위 기본적 형식에서 날짜만을 ISO 8601 형식으로 가져왔다.
 
+#### toISOString
+
+```js
+let rightNow = new Date()
+let res = rightNow.toISOString().slice(0, 10).replace(/-/g, '-')
+console.log(res) // '2021-12-10'
+```
+
+`toISOString` 메소드를 활용한 경우이다. 여기서 다른 형식으로 커스텀하고 싶다면, `.replace()` 메소드의 두번째 인자의 `""` 를 변경하면 된다.
+
+```js
+let today = new Date()
+today.toISOString().substring(0, 10)
+console.log(today) // '2021-12-10'
+```
+
+ISO 8601 표준을 지킨다면 위처럼만 작성해도 된다.
+
+#### toLocaleString
+
+```js
+new Date()
+  .toLocaleString('en-us', {
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  })
+  .replace(/(\d+)\/(\d+)\/(\d+)/, '$3-$1-$2')
+
+// '2021-12-10'
+```
+
+`toLocaleString` 메소드를 사용해서도 변환할 수 있다.
+
+#### JS Function
+
+```js
+function yyyymmdd(dateIn) {
+  var yyyy = dateIn.getFullYear()
+  var mm = dateIn.getMonth() + 1 // getMonth() is zero-based
+  var dd = dateIn.getDate()
+  return String(yyyy + '-' + mm + '-' + dd)
+}
+
+yyyymmdd(new Date())
+// '2021-12-10'
+```
+
+순수한 자바스크립트 함수를 사용하여 날짜 객체를 변환할 수 있다.
+
+날짜 객체의 년도에 해당하는 수를 추출하는 메소드인 `getFullYear()`
+
+월에 해당하는 수를 추출하는 메소드인 `getMonth()` (`getMonth()` 는 0부터 세어 1월은 0으로 반환하기 때문에, 1을 더한다.)
+
+일에 해당하는 수를 추출하는 `getDate()` 를 각각 추출하여 문자열로 만드는 함수이다.
+
 ### Reference
 
 - <a href="https://ko.javascript.info/date" target="_blank" rel="noopener">모던 자바스크립트 튜토리얼 - 날짜 객체</a>
