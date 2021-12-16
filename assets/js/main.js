@@ -1,4 +1,4 @@
-;() => {
+;(() => {
   // Theme switch
   const body = document.body
   const lamp = document.getElementById('mode')
@@ -28,4 +28,4 @@
       ? area.classList.add('blurry')
       : area.classList.remove('blurry')
   })
-}
+})()
