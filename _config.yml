@@ -26,10 +26,10 @@ author:
   avatar: /assets/img/avatar.jpg # change with your own avatar
 
 # URL settings
-url: 'https://mniYUNSU.github.io' #
+url: 'https://mniyunsu.github.io'
 baseurl:
 permalink: /:title/
-google_analytics: # leave it blank if not wish
+google_analytics: 'G-Y01H4N39BH'
 fb_appid:
 
 # Collection setting
