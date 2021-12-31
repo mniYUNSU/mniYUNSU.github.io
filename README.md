@@ -25,4 +25,4 @@
 - [ ] 구글 서치 콘솔에 사이트맵이 등록되지 않는다..ㅠㅠ
 - [ ] 블로그의 모든 글들을 수동으로 색인 목록에 등록 중
 - [ ] 콜백, 프로미스, async/await 부터 등록 예정(2021-12-27)
-- [ ] https://mniyunsu.github.io/js-dom/
+- [ ] https://mniyunsu.github.io/time-complexity/
