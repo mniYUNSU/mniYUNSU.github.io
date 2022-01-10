@@ -33,5 +33,3 @@ HappyNewYear(date) // true
 ```
 
 새해 복 많이 받으세요 !
-
----
