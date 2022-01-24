@@ -55,7 +55,13 @@ comments: false
 
 소프트웨어 엔지니어 / 프론트엔드
 
-- 모바일 소셜 독서 플랫폼 **<a href="https://www.texture.kr/" target="_blank" rel="noopener">texture</a>** 백 오피스 개발
+##### `2021.11 ~ ` 모바일 소셜 독서 플랫폼 **<a href="https://www.texture.kr/" target="_blank" rel="noopener">texture</a>** 백 오피스 개발
+
+- **사용 기술** : <img src="https://img.shields.io/badge/Javascript-F36D00?style=flat-square&logo=JavaScript&logoColor=white"/> <img src="https://img.shields.io/badge/React-0088CC?style=flat-square&logo=react&logoColor=white"/> <img src="https://img.shields.io/badge/Styled Components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white"/> <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=Jira&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>
+
+##### `2022.01 ~ ` 모바일 소셜 독서 플랫폼 **<a href="https://www.texture.kr/" target="_blank" rel="noopener">texture</a>** 앱 개발
+
+- **사용 기술** : <img src="https://img.shields.io/badge/React Native-B7178C?style=flat-square&logo=react&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white"/> <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=Jira&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>
 
 <!--
 
