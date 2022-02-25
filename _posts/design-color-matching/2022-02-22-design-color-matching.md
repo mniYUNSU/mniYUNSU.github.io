@@ -2,6 +2,7 @@
 layout: post
 title: '좋아하는 배색 1 : 체리초콜릿'
 date: 2022-02-22 00:00:00 +0700
+modified: 2022-02-25 00:00:00 +0700
 categories: [Color Matching Idea]
 tags: [Design]
 description: 블로그 다크모드에 사용된 배색
