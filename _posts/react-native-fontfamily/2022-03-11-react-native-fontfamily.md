@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android에서 fontFamily 미적용 이슈
+title: Android에서 fontFamily가 적용되지 않는 이슈
 date: 2022-03-11 00:00:00 +07:00
 categories: [React Native Essentials]
 tags: [React Native]
