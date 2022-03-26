@@ -118,9 +118,9 @@ iOS 13에서는 URL 열기 기능을 `SceneDelegate`로 옮겼다. iOS 13을 사
 
 ### android/build.gradle
 
-`build.gradle`의 repository 내부에 아래 내용을 추가한다.
+`build.gradle`의 repositories 내부에 아래 내용을 추가한다.
 
-```java
+```xml
 // android/build.gradle
 buildscript {
 
@@ -135,7 +135,7 @@ buildscript {
 
 `build.gradle`의 dependencies 내부에 아래 내용을 추가한다.
 
-```java
+```xml
 // android/app/build.gradle
 
 dependencies {
@@ -194,7 +194,7 @@ AndroidManifest.xml 파일의 `<application></application>` 내부에 아래 내
 
 # 사용 예시
 
-```js
+```jsx
 import { AccessToken, LoginManager } from 'react-native-fbsdk'
 import Facebook from 'icon/sns/facebook.svg'
 
