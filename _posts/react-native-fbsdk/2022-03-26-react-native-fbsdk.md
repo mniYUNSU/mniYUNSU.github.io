@@ -1,10 +1,10 @@
 ---
 layout: post
-title: React Native Facebook SDK 적용
+title: React Native Facebook SDK 적용과 커스텀 로그인 버튼
 date: 2022-03-26 00:00:00 +07:00
 categories: [React Native Essentials]
 tags: [React Native, Facebook SDK]
-description: react-native-fbsdk를 이용한 React Native Facebook SDK 적용
+description: React Native Facebook SDK implementation through react-native-fbsdk and customize login button
 ---
 
 # 개발 환경 및 설치
@@ -192,7 +192,7 @@ AndroidManifest.xml 파일의 `<application></application>` 내부에 아래 내
 
 이렇게 안드로이드도 Facebook SDK 세팅이 끝나게 되며, 간략한 예시는 아래와 같다.
 
-# 사용 예시
+# 사용 예시 및 커스텀 로그인 버튼
 
 ```jsx
 import { AccessToken, LoginManager } from 'react-native-fbsdk'
