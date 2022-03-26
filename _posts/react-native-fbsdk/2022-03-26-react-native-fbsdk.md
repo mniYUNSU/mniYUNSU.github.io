@@ -194,6 +194,9 @@ AndroidManifest.xml 파일의 `<application></application>` 내부에 아래 내
 
 # 사용 예시 및 커스텀 로그인 버튼
 
+<br>
+<br>
+
 ```jsx
 import { AccessToken, LoginManager } from 'react-native-fbsdk'
 import Facebook from 'icon/sns/facebook.svg'
