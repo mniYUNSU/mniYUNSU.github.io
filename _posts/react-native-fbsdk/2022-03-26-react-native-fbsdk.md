@@ -116,7 +116,7 @@ iOS 13에서는 URL 열기 기능을 `SceneDelegate`로 옮겼다. iOS 13을 사
 
 # Android
 
-### android/build.gradle android/app/build.gradle
+### android/build.gradle
 
 `build.gradle`의 repository 내부에 아래 내용을 추가한다.
 
