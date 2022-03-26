@@ -1,6 +1,6 @@
 ---
 layout: post
-title: React Native Facebook SDK 적용과 커스텀 로그인 버튼
+title: React Native Facebook SDK 적용 및 커스텀 로그인 버튼
 date: 2022-03-26 00:00:00 +07:00
 categories: [React Native Essentials]
 tags: [React Native, Facebook SDK]
