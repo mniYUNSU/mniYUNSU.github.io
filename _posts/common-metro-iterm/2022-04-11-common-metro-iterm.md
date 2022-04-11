@@ -51,7 +51,7 @@ Metro 기본 실행 터미널을 iTerm으로 바꿔야겠다고 생각했다.
 
 우리가 프로덕트를 빌드할 때 입력하는 명령어인 `react-native run-ios`는 `launchPackager.command`를 실행하여 Metro를 여는데, 이 파일의 내용은 터미널 상에서 파일에 적힌 CLI 명령어를 수행하는 것이다.
 
-이 파일이 실행될 때 열리는 응용 프로그램이 macOS 기본 터미널로 설정되어있었기 때문에 iTerm이 Default 터미널 이었어도 macOS 기본 터미널로 Metro가 실행되었던 것이다.
+이 파일이 **실행될 때 열리는 응용 프로그램이 macOS 기본 터미널로 설정되어있었기 때문에** iTerm이 Default 터미널 이었어도 macOS 기본 터미널로 Metro가 실행되었던 것이다.
 
 # 변경 완료
 
