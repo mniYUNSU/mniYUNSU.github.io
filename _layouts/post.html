@@ -82,14 +82,7 @@ layout: compress
 
         <div class="page-content" itemprop="articleBody">
           {% include anchor_headings.html html=content anchorClass="anchor-head" beforeHeading=true h_min=1 h_max=4 %}
-          {% if page.tweet %}
-          <p>Comments this article on 
-            <a href="https://twitter.com/{{site.twitter}}/status/{{page.tweet}}">Twitter</a>.
-          </p>
-          {% endif %}
-        </div>
-
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9661215205472475"
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9661215205472475"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
      style="display:block; text-align:center;"
@@ -100,6 +93,13 @@ layout: compress
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+          {% if page.tweet %}
+          <p>Comments this article on 
+            <a href="https://twitter.com/{{site.twitter}}/status/{{page.tweet}}">Twitter</a>.
+          </p>
+          {% endif %}
+        </div>
+
 
       </article>
       {% if page.modified %}
