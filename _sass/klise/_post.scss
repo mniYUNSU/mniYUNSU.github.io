@@ -282,15 +282,15 @@
   height: auto;
 }
 .sidebar__right {
-  height: auto;
+  height: 40%;
   // background-color: #000;
-  // width: 400px;
+  width: 70%;
   max-width: calc(#{$wide-size} - (#{$spacing-full} * 2));
   max-width: -webkit-calc(#{$wide-size} - (#{$spacing-full} * 2));
   position: absolute;
-  top: 400px;
+  top: 300px;
   // left: 0;
-  left: calc(#{$wide-size} - (#{$spacing-full} * 2));
+  left: calc(#{$wide-size} - (#{$spacing-full}));
   // z-index: 2;
   margin-right: auto;
   margin-left: auto;
