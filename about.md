@@ -87,6 +87,7 @@ comments: false
 
 ---
 
+<!--
 <br>
 
 # Educations
@@ -115,7 +116,7 @@ comments: false
 - 기초 C 프로그래밍
 - 선형대수학, 공업수학 및 미적분학
 
----
+--- -->
 
 <!--
 <br>
@@ -132,7 +133,7 @@ comments: false
 - `Open API`를 활용한 `fetch` 활용법
 
 --- -->
-
+<!--
 <br>
 
 # Languages
@@ -143,6 +144,6 @@ comments: false
 
 - Level 6 (2020.09.08 취득)
 
----
+--- -->
 
 <br>
