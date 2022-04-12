@@ -283,8 +283,8 @@
 }
 .sidebar__right {
   height: auto;
-  // background-color: #000;
-  width: auto;
+  width: 36%;
+  min-width: 250px;
   max-width: calc(#{$wide-size} - (#{$spacing-full} * 2));
   max-width: -webkit-calc(#{$wide-size} - (#{$spacing-full} * 2));
   position: absolute;
