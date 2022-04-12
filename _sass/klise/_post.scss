@@ -283,11 +283,12 @@
 }
 .sidebar__right {
   height: auto;
-  width: 400px;
+  // background-color: #000;
+  // width: 400px;
   max-width: calc(#{$wide-size} - (#{$spacing-full} * 2));
   max-width: -webkit-calc(#{$wide-size} - (#{$spacing-full} * 2));
   position: absolute;
-  top: 100px;
+  top: 400px;
   // left: 0;
   left: calc(#{$wide-size} - (#{$spacing-full} * 2));
   // z-index: 2;
