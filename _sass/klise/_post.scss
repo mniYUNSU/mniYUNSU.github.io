@@ -283,19 +283,21 @@
 }
 .sidebar__right {
   height: auto;
-  width: 36%;
+  // width: 36%;
+  // background-color: #000;
   min-width: 250px;
-  max-width: calc(#{$wide-size} - (#{$spacing-full} * 2));
-  max-width: -webkit-calc(#{$wide-size} - (#{$spacing-full} * 2));
-  position: absolute;
-  top: 300px;
+  // max-width: calc(#{$wide-size} - (#{$spacing-full} * 2));
+  // max-width: -webkit-calc(#{$wide-size} - (#{$spacing-full} * 2));
+  position: fixed;
+  bottom: 7vh;
   // left: 0;
-  left: calc(#{$wide-size} - (#{$spacing-full} * 3));
-  left: -webkit-calc(#{$wide-size} - (#{$spacing-full} * 3));
+  // right: calc(#{$wide-size} - (#{$spacing-full} * 3));
+  // right: -webkit-calc(#{$wide-size} - (#{$spacing-full} * 3));
   // z-index: 2;
+  left: calc(((100% - 890px) / 2 - 270px));
   margin-right: auto;
   margin-left: auto;
-  margin: 50px;
+  // margin: 50px;
   @extend %clearfix;
   @include media-query($on-mobile) {
     display: none;
@@ -303,7 +305,7 @@
   @include media-query($on-widescreen) {
     display: none;
   }
-  // @include media-query($on-fourkscreen) {
+  // @include media-query($on-adscreen) {
   //   display: none;
   // }
 }
