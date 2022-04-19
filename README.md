@@ -17,6 +17,7 @@
 - [x] 마크다운 폰트 `Fira Code` 적용
 - [x] GitHub Page가 Jekyll Plugin `jekyll-postfiles` 을 지원하지 않아 게시글 Post 시 오류 해결
 - [x] 스크롤 방향에 따라 Nav bar 시각화 구현
+<!--
 
 ## 미구현
 
@@ -26,4 +27,4 @@
 - [ ] 드디어 성공...
 - [ ] 블로그의 모든 글들을 수동으로 색인 목록에 등록 중
 - [ ] 콜백, 프로미스, async/await 부터 등록 예정(2021-12-27)
-- [ ] https://mniyunsu.github.io/time-complexity/
+- [ ] https://mniyunsu.github.io/time-complexity/ -->
