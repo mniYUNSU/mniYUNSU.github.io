@@ -47,7 +47,3 @@ function getTimeString(targetDate) {
 <br>
 
 시간을 표시할 컴포넌트에 해당 함수를 실행시킨다. 매개변수로 `createdAt`, `updatedAt` 등 시간으로 표현된 `string` 을 전달한다.
-
-### References
-
-- <a href="https://reactnative.dev/docs/optimizing-flatlist-configuration" target="_blank" rel="noopener">React Native Documents - Optimizing Flatlist Configuration</a>
