@@ -2,8 +2,9 @@
 layout: post
 title: 'Postman HTTPS SSL Error'
 date: 2022-05-13 00:00:00 +07:00
+modified: 2022-05-13 19:29:20 +0700
 categories: [Error]
-tags: [Postman, Https]
+tags: [Postman, HTTPS]
 description: Postman HTTPS SSL Error
 ---
 
