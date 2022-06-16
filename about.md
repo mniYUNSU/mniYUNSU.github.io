@@ -53,7 +53,7 @@ comments: false
 
 #### 코드스테이츠 소프트웨어 엔지니어링 부트캠프 38기 멘토링
 
-6명의 멘티 / 10주 간 1주일 1회 멘토링 수행 - **<a href="https://yoshiground.notion.site/6110f2452a2344209869cd6d423fe5d0" target="_blank" rel="noopener">멘토링 프로그램 참여 인증서</a>**
+6명의 멘티 / 10주 간 1주일 1회 멘토링 수행 - **<a href="https://yoshiground.notion.site/6110f2452a2344209869cd6d423fe5d0" target="_blank" rel="noopener">멘토링 활동 인증서 / Cover Letter</a>**
 
 ### 2022.04 ~
 
