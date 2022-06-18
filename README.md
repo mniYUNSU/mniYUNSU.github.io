@@ -17,6 +17,10 @@
 - [x] 마크다운 폰트 `Fira Code` 적용
 - [x] GitHub Page가 Jekyll Plugin `jekyll-postfiles` 을 지원하지 않아 게시글 Post 시 오류 해결
 - [x] 스크롤 방향에 따라 Nav bar 시각화 구현
+- [x] 구글 서치콘솔 연결
+- [x] 구글 애널리틱스 연결
+- [x] 구글 애드센스 연결
+
 <!--
 
 ## 미구현
