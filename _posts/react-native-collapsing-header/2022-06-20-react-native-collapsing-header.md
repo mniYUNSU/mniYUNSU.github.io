@@ -18,6 +18,8 @@ description: How to Create a Collapsing Tab Header Using React Native 원문 글
 <figcaption>Fig 1. 예시로 든 트위터 프로필 페이지</figcaption>
 </figure>
 
+<br>
+
 이 포스트에선 접히는 헤더와 다중 스와이프 가능한 탭을 React Native를 통해 하나하나 만들어볼 것이다. 이는 <a href="https://docs.swmansion.com/react-native-reanimated/" target="_blank" rel="noopener">React Native Reanimated</a> 와 <a href="https://reactnavigation.org/" target="_blank" rel="noopener">React Navigation</a> 라이브러리를 사용하여 구현할 수 있다.
 
 # 접히는 탭 (Collapsible Tab)을 만들기 위한 시작점
@@ -95,6 +97,8 @@ export default memo(Profile);
 <img src="./../../images/collapsing-header2.jpg" alt="react-native-collapsing-header2">
 <figcaption>Fig 2. 두 개의 탭으로 구성된 간단한 프로필 컴포넌트</figcaption>
 </figure>
+
+<br>
 
 # Simple Static Header
 
@@ -256,6 +260,8 @@ const styles = StyleSheet.create({
 <figcaption>Fig 3. Static 헤더와 두 개의 탭으로 이루어진 화면</figcaption>
 </figure>
 
+<br>
+
 # 헤더 애니메이션 (Animating the Header)
 
 Static 헤더를 만들었으니, 이제 애니메이션을 추가할 차례다.
@@ -375,6 +381,8 @@ const сurrentScrollValue = useDerivedValue(
 <figcaption>Fig 4. 접히는 애니메이션 헤더 </figcaption>
 </figure>
 
+<br>
+
 위에서 보듯, 접히는 애니메이션은 작동한다. 그러나 우리가 원했던 애니메이션이 아니다. 헤더의 나머지 부분이 표시되고 잘려 보인다. 이제 다음 목표는 헤더가 접힐 때 프로필 이름만 표시하는 것이다.
 
 ```tsx
@@ -449,6 +457,8 @@ const styles = StyleSheet.create({
 <figcaption>Fig 5. 프로필 이름만 보이는 애니메이션 헤더 </figcaption>
 </figure>
 
+<br>
+
 접히는 애니메이션을 만드는 데 사용된 길이 값 등 치수에 대한 자세한 내용은 아래와 같다.
 
 <figure>
@@ -466,6 +476,8 @@ const styles = StyleSheet.create({
 <img src="./../../images/collapsing-header7.gif" alt="react-native-collapsing-header7">
 <figcaption>Fig 7. 탭 전환 시 튀어나오는 헤더</figcaption>
 </figure>
+
+<br>
 
 현재 탭과 스크롤을 동기화하기 위해 현재 표시되지 않은 리스트에 정확한 Offset을 수동으로 설정하는 것이 좋다.
 
@@ -577,6 +589,8 @@ const useScrollSync =(
 <img src="./../../images/collapsing-header8.gif" alt="react-native-collapsing-header8">
 <figcaption>Fig 8. 완성된 화면</figcaption>
 </figure>
+
+<br>
 
 전체 소스 코드는 <a href="https://github.com/Stormotion-Mobile/react-native-collapsing-tab-header" target="_blank" rel="noopener">Github Repository</a>에서 확인할 수 있다.
 
