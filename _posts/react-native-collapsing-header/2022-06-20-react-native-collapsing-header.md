@@ -5,6 +5,7 @@ date: 2022-06-20 00:00:00 +07:00
 categories: [React Native Essentials]
 tags: [React Native, Typescript]
 description: How to Create a Collapsing Tab Header Using React Native 원문 글 번역
+modified: 2022-06-21 00:00:00 +07:00
 ---
 
 > **개발 중 찾은 블로그 글을 복습하며 번역한 내용입니다.** <br> <a href="https://stormotion.io/blog/how-to-create-collapsing-tab-header-using-react-native" target="_blank" rel="noopener">원문 블로그 글 - How to Create a Collapsing Tab Header Using React Native</a>
