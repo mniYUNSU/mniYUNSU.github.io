@@ -37,6 +37,7 @@ const ConnectionList = forwardRef<FlatList, Props>((props, ref) => {
    ({ item }) => <ConnectionItem connection={item} />,
    []
  );
+
  return (
    <FlatList
      ref={ref}
@@ -47,11 +48,13 @@ const ConnectionList = forwardRef<FlatList, Props>((props, ref) => {
    />
  );
 });
+
 const styles = StyleSheet.create({
  container: {
    flex: 1,
  },
 });
+
 export default memo(ConnectionList);
 ```
 
@@ -66,10 +69,12 @@ const Profile: FC = () => {
    () => <ConnectionList data={FRIENDS} />,
    []
  );
+
  const renderSuggestions = useCallback(
    () => <ConnectionList data={SUGGESTIONS} />,
    []
  );
+
  return (
    <SafeAreaView style={styles.container}>
      <Tab.Navigator>
@@ -79,14 +84,15 @@ const Profile: FC = () => {
    </SafeAreaView>
  );
 };
+
 const styles = StyleSheet.create({
  container: {
    flex: 1,
    backgroundColor: "white",
  },
 });
-export default memo(Profile);
 
+export default memo(Profile);
 ```
 
 <br>
@@ -122,6 +128,7 @@ export default memo(Profile);
    </View>
  );
 };
+
 const styles = StyleSheet.create({
 ...
  headerContainer: {
@@ -145,6 +152,7 @@ const styles = StyleSheet.create({
    (event) => setHeaderHeight(event.nativeEvent.layout.height),
    []
  );
+
  ...
  <Animated.View
    style={styles.headerContainer}
@@ -161,6 +169,7 @@ const styles = StyleSheet.create({
 ```tsx
 ...
  const { top, bottom } = useSafeAreaInsets();
+
  const contentContainerStyle = useMemo<StyleProp<ViewStyle>>(
    () => ({
      paddingTop: headerHeight + TAB_BAR_HEIGHT,
@@ -168,6 +177,7 @@ const styles = StyleSheet.create({
    }),
    [headerHeight, bottom]
  );
+
  const sharedProps = useMemo<Partial<FlatListProps<Connection>>>(
    () => ({
      contentContainerStyle,
@@ -175,18 +185,22 @@ const styles = StyleSheet.create({
    }),
    [contentContainerStyle]
  );
+
  const renderFriends = useCallback(
    () => <ConnectionList data={FRIENDS} {...sharedProps} />,
    [sharedProps]
  );
+
  const renderSuggestions = useCallback(
    () => <ConnectionList data={SUGGESTIONS} {...sharedProps} />,
    [sharedProps]
  );
+
  const tabBarStyle = useMemo<StyleProp<ViewStyle>>(
    () => [styles.tabBarContainer, { top: headerHeight }],
    [headerHeight]
  );
+
  const renderTabBar = useCallback<
    (props: MaterialTopTabBarProps) => React.ReactElement
  >(
@@ -197,10 +211,12 @@ const styles = StyleSheet.create({
    ),
    [tabBarStyle, headerHeight]
  );
+
  const headerContainerStyle = useMemo<StyleProp<ViewStyle>>(
    () => [styles.headerContainer, { paddingTop: top }],
    [headerHeight]
  );
+
  return (
    <View style={styles.container}>
      <Tab.Navigator tabBar={renderTabBar}>
@@ -229,6 +245,7 @@ const styles = StyleSheet.create({
 ```tsx
 ...
  const rendered = headerHeight > 0;
+
  ...
  const contentContainerStyle = useMemo<StyleProp<ViewStyle>>(
    () => ({
@@ -237,6 +254,7 @@ const styles = StyleSheet.create({
    }),
    [rendered, headerHeight, bottom]
  );
+
  ...
  const tabBarStyle = useMemo<StyleProp<ViewStyle>>(
    () => [
@@ -245,6 +263,7 @@ const styles = StyleSheet.create({
    ],
    [rendered, headerHeight]
  );
+
  ...
  const headerContainerStyle = useMemo<StyleProp<ViewStyle>>(
    () => [rendered ? styles.headerContainer : undefined, { paddingTop: top }],
@@ -282,6 +301,7 @@ export type HeaderConfig = {
  const { top, bottom } = useSafeAreaInsets();
  const [headerHeight, setHeaderHeight] = useState(0);
  const defaultHeaderHeight = top + HEADER_HEIGHT;
+
  const headerConfig = useMemo<HeaderConfig>(
    () => ({
      heightCollapsed: defaultHeaderHeight,
@@ -289,6 +309,7 @@ export type HeaderConfig = {
    }),
    []
  );
+
  const { heightCollapsed, heightExpanded } = headerConfig;
  const headerHeightDiff = heightExpanded - heightCollapsed;
 ...
@@ -306,6 +327,7 @@ React Native Reanimated를 통해 애니메이션 스크롤 값을 알아내는 
  const friendsScrollHandler = useAnimatedScrollHandler(
    (event) => (friendsScrollValue.value = event.contentOffset.y)
  );
+
  const suggestionsScrollValue = useSharedValue(0);
  const suggestionsScrollHandler = useAnimatedScrollHandler(
    (event) => (suggestionsScrollValue.value = event.contentOffset.y)
@@ -322,13 +344,16 @@ React Native Reanimated를 통해 애니메이션 스크롤 값을 알아내는 
 type Props = MaterialTopTabBarProps & {
  onIndexChange?: (index: number) => void;
 };
+
 const TabBar: FC<Props> = ({ onIndexChange, ...props }) => {
  const { index } = props.state;
  useEffect(() => {
    onIndexChange?.(index);
  }, [onIndexChange, index]);
+
  return <MaterialTopTabBar {...props} />;
 };
+
 export default TabBar;
 ```
 
@@ -337,6 +362,7 @@ export default TabBar;
 ```tsx
  ...
  const [tabIndex, setTabIndex] = useState(0);
+
  ...
  const renderTabBar = useCallback<
    (props: MaterialTopTabBarProps) => React.ReactElement
@@ -362,15 +388,19 @@ const сurrentScrollValue = useDerivedValue(
      tabIndex === 0 ? friendsScrollValue.value : suggestionsScrollValue.value,
    [tabIndex]
  );
+
  const translateY = useDerivedValue(
    () => -Math.min(сurrentScrollValue.value, headerHeightDiff)
  );
+
  const tabBarAnimatedStyle = useAnimatedStyle(() => ({
    transform: [{ translateY: translateY.value }],
  }));
+
  const headerAnimatedStyle = useAnimatedStyle(() => ({
    transform: [{ translateY: translateY.value }],
  }));
+
 ...
 ```
 
@@ -395,6 +425,7 @@ const headerAnimatedStyle = useAnimatedStyle(() => ({
      [Visibility.Hidden, Visibility.Visible]
    ),
  }));
+
 ...
 const collapsedOverlayAnimatedStyle = useAnimatedStyle(() => ({
    opacity: interpolate(
@@ -403,6 +434,7 @@ const collapsedOverlayAnimatedStyle = useAnimatedStyle(() => ({
      [Visibility.Visible, Visibility.Hidden, Visibility.Hidden]
    ),
  }));
+
  const collapsedOverlayStyle = useMemo<StyleProp<ViewStyle>>(
    () => [
      styles.collapsedOverlay,
@@ -411,6 +443,7 @@ const collapsedOverlayAnimatedStyle = useAnimatedStyle(() => ({
    ],
    [collapsedOverlayAnimatedStyle, heightCollapsed]
  );
+
 ...
 return (
    <View style={styles.container}>
@@ -431,6 +464,7 @@ return (
    </View>
  );
 };
+
 const styles = StyleSheet.create({
  ...
  collapsedOverlay: {
@@ -481,7 +515,7 @@ const styles = StyleSheet.create({
 
 현재 탭과 스크롤을 동기화하기 위해 현재 표시되지 않은 리스트에 정확한 Offset을 수동으로 설정하는 것이 좋다.
 
-각 리스트의 참조와 각 리스트의 현재 위치에 대한 정보를 저장하기 위해 사용할 엔티티를 만들어야 한다. 이름은 `ScrollPair` 이다.
+각 리스트의 참조와 각 리스트의 현재 위치에 대한 정보를 저장하기 위해 사용할 엔티티를 만들어야 한다. 이름은 `ScrollPairs` 이다.
 
 ```tsx
 ...
@@ -489,9 +523,11 @@ export type ScrollPair = {
  list: RefObject<FlatList>;
  position: Animated.SharedValue<number>;
 };
+
 ...
  const friendsRef = useRef<FlatList>(null);
  const suggestionsRef = useRef<FlatList>(null);
+
  ...
  const scrollPairs = useMemo<ScrollPair[]>(
    () => [
@@ -563,11 +599,12 @@ const useScrollSync =(
 
 이제 마지막이지만 결코 작지 않은 기능이다.
 
-`Friends` 리스트 처럼 내용이 적다. 이 리스트는 너무 짧아서 헤더를 접기 위해 충분히 긴 스크롤링을 수행할 수 없다. 따라서 <a href="https://reactnative.dev/docs/scrollview#contentcontainerstyle" target="_blank" rel="noopener">contentContainerStyle</a> prop 에 만족하는 `minHeight`를 추가해야 한다.
+`Friends` 탭은 리스트의 아이템이 적다. 이 리스트는 너무 짧아서 헤더를 접기 위해 충분히 긴 스크롤링을 수행할 수 없다. 따라서 <a href="https://reactnative.dev/docs/scrollview#contentcontainerstyle" target="_blank" rel="noopener">contentContainerStyle</a> prop 에 만족하는 `minHeight`를 추가해야 한다.
 
 ```tsx
 ...
  const { height: screenHeight } = useWindowDimensions();
+
  ...
  const contentContainerStyle = useMemo<StyleProp<ViewStyle>>(
    () => ({
