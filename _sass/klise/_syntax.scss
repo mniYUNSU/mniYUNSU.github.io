@@ -29,9 +29,9 @@ pre {
     padding-left: 20px;
   }
   border: 1px solid rgba(128, 128, 128, 0.1);
-  background-color: #1a1b21;
-  border-radius: 2px;
-  padding: 10px;
+  background-color: #fbfbfb;
+  border-radius: 20px;
+  padding: 20px;
   display: block;
   overflow-x: auto;
 
@@ -55,7 +55,7 @@ pre {
 }
 
 .highlight {
-  color: #fbf1c7;
+  color: #000;
 }
 .highlight .w {
   color: #7aa2f7;
@@ -195,7 +195,7 @@ pre {
   color: #586e75;
 } /* Comment */
 .highlight .err {
-  color: #fbf1c7;
+  color: #f76363;
 } /* Error */
 .highlight .g {
   color: #fbf1c7;
@@ -207,7 +207,7 @@ pre {
   color: #93a1a1;
 } /* Literal */
 .highlight .n {
-  color: #fbf1c7;
+  color: #1f2b9a;
 } /* Name */
 .highlight .o {
   color: #f51773;
@@ -290,7 +290,7 @@ pre {
   color: #2aa198;
 } /* Literal.String */
 .highlight .na {
-  color: #fbd500e3;
+  color: rgb(143, 123, 13);
 } /* Name.Attribute */
 .highlight .nb {
   color: #b58900;
@@ -320,7 +320,7 @@ pre {
   color: #93a1a1;
 } /* Name.Namespace */
 .highlight .nx {
-  color: #b9bec5;
+  color: rgb(67, 88, 119);
 } /* Name.Other */
 .highlight .py {
   color: #93a1a1;

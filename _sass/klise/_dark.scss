@@ -74,6 +74,47 @@ body[data-theme='dark'] {
     }
   }
 
+  // pre
+  pre {
+    margin: 0 -27px;
+    @include media-query($on-mobile) {
+      margin: 0 calc(51% - 51vw);
+      padding-left: 20px;
+    }
+    border: 1px solid rgba(128, 128, 128, 0.1);
+    background-color: #1a1b21;
+    border-radius: 20px;
+    padding: 20px;
+    display: block;
+    overflow-x: auto;
+
+    > code {
+      width: 100%;
+      max-width: 50rem;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.5;
+      display: block;
+      border: 0;
+    }
+  }
+
+  .highlight {
+    color: #fff;
+  }
+  .highlight .n {
+    color: #fbf1c7;
+  } /* Name */
+  .highlight .nx {
+    color: #b9bec5;
+  } /* Name.Other */
+  .highlight .na {
+    color: #fbda1c;
+  } /* Name.Attribute */
+  .highlight .err {
+    color: #fbf1c7;
+  } /* Error */
+
   // Syntax
   code {
     &.highlighter-rouge {
