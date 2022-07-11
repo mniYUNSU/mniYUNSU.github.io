@@ -55,7 +55,7 @@ comments: false
 
 6명의 멘티 / 10주 간 1주일 1회 멘토링 수행 - **<a href="https://yoshiground.notion.site/6110f2452a2344209869cd6d423fe5d0" target="_blank" rel="noopener">멘토링 활동 인증서 / Cover Letter</a>**
 
-### 2022.04 ~
+### 2022.07 ~
 
 #### 텍스처
 
@@ -71,7 +71,7 @@ comments: false
 
 - **사용 기술** : <img src="https://img.shields.io/badge/React Native-B7178C?style=flat-square&logo=react&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white"/> <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=Jira&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>
 
-### 2021.11 ~ 2022.04
+### 2021.11 ~ 2022.06
 
 #### 볼드피리어드
 
