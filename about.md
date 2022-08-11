@@ -61,6 +61,10 @@ comments: false
 
 소프트웨어 엔지니어 / 프론트엔드
 
+##### `2022.08` 텍스처 오리지널 컨텐츠 - <a href="https://piece.texture.kr" target="_blank" rel="noopener">텍스처 피스</a> 개발
+
+- **사용 기술** : <img src="https://img.shields.io/badge/Typescript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/> <img src="https://img.shields.io/badge/Styled Components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>
+
 ##### `2022.04` 시드 투자 경험 - <a href="https://platum.kr/archives/184933" target="_blank" rel="noopener">보도자료</a>
 
 ##### `2021.11 ~ ` 모바일 소셜 독서 플랫폼 **<a href="https://www.texture.kr/" target="_blank" rel="noopener">texture</a>** 백 오피스 개발
