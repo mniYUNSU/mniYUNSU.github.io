@@ -49,12 +49,6 @@ comments: false
 
 # Experiences
 
-### 2022.02 ~ 2022.05
-
-#### 코드스테이츠 소프트웨어 엔지니어링 부트캠프 38기 멘토링
-
-6명의 멘티 / 10주 간 1주일 1회 멘토링 수행 - **<a href="https://yoshiground.notion.site/6110f2452a2344209869cd6d423fe5d0" target="_blank" rel="noopener">멘토링 활동 인증서 / Cover Letter</a>**
-
 ### 2022.07 ~
 
 #### 텍스처
@@ -74,6 +68,18 @@ comments: false
 ##### `2022.01 ~ ` 모바일 소셜 독서 플랫폼 **<a href="https://www.texture.kr/" target="_blank" rel="noopener">texture</a>** 앱 개발
 
 - **사용 기술** : <img src="https://img.shields.io/badge/React Native-B7178C?style=flat-square&logo=react&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white"/> <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=Jira&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>
+
+### 2022.07
+
+#### 코드스테이츠 선배적 참견 시점 연사 참가
+
+**선배적 참견 시점** : 선배 수강생의 시점으로 코스를 진행하며 하지 말았으면 하는 행동들과, 꼭 했으면 하는 행동들에 대해 전달 해주어 후배 수강생들의 시행 착오를 줄여주고 학습 성취도를 올려주기 위한 라이브 세션
+
+### 2022.02 ~ 2022.05
+
+#### 코드스테이츠 소프트웨어 엔지니어링 부트캠프 38기 멘토링
+
+6명의 멘티 / 10주 간 1주일 1회 멘토링 수행 - **<a href="https://yoshiground.notion.site/6110f2452a2344209869cd6d423fe5d0" target="_blank" rel="noopener">멘토링 활동 인증서 / Cover Letter</a>**
 
 ### 2021.11 ~ 2022.06
 
