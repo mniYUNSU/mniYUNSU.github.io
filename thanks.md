@@ -10,6 +10,43 @@ comments: false
 
 <br>
 
+# Who-Sekai
+
+**익명 텍스트 네트워킹 서비스**
+<br>_2022.07_<br>
+
+<figure>
+<img src="./squidgame.gif" alg="mniYUNSU who-sekai" style="border-radius: 50px ;box-shadow:0px 0px 10px #000" >
+<figcaption>Fig 1. 무궁화 꽃이 피었습니다~👧</figcaption>
+</figure>
+
+#### 배포 URL 및 프로젝트 문서
+
+<i class="fas fa-link"></i>
+<a href="https://who-sekai.vercel.app" target="_blank" rel="noopener" > Who-Sekai</a>
+**|** <i class="fab fa-github"></i> <a href="https://github.com/mniYUNSU/who-sekai" target="_blank" rel="noopener"> 프로젝트 Repository</a>
+
+#### 사용한 기술
+
+<img src="https://img.shields.io/badge/Typescript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=Firebase&logoColor=white"/> <img src="https://img.shields.io/badge/Chakra UI
+-319795?style=flat-square&logo=Chakra UI&logoColor=white"/> <img src="https://img.shields.io/badge/React-0088CC?style=flat-square&logo=react&logoColor=white"/>
+
+- `Next.js` 활용한 서버 사이드 렌더링
+- `Chakra UI` 디자인 시스템 사용
+- `Firebase SDK` 활용한 Authorization
+- `React` Context API 및 Custom Hook 사용
+- `Vercel` 정적 페이지 호스팅
+
+<br>
+
+| method | command                                                                                           |
+| ------ | ------------------------------------------------------------------------------------------------- |
+| curl   | `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
+| wget   | `sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`   |
+| fetch  | `sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
+
+---
+
 # Three.js로 오징어 게임🦑 만들기
 
 **Toy Web Game**
