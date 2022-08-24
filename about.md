@@ -47,7 +47,7 @@ comments: false
 
 <br>
 
-# Experiences
+<!-- # Experiences
 
 ### 2022.07 ~
 
@@ -87,7 +87,7 @@ comments: false
 
 소프트웨어 엔지니어 / 프론트엔드
 
-##### 텍스처 법인 분리
+##### 텍스처 법인 분리 -->
 
 <br>
 
