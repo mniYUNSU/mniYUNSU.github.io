@@ -2,6 +2,7 @@
 layout: post
 title: 나만의 VSCode 테마를 만들어 배포하는 방법
 date: 2022-08-25 09:29:20 +0700
+modified: 2022-08-26 00:00:00 +07:00
 categories: [Common]
 tags: [Vscode, Extension, Theme]
 description: 나만의 VSCode 테마를 만들어 배포하는 방법
@@ -148,10 +149,6 @@ vsce login (publisher id)
 ```cli
 vsce package
 ```
-
-<figure>
-<img src="./../../images/vscode-create-theme8.png" alt="vscode-create-theme8">
-</figure>
 
 <br>
 
