@@ -19,9 +19,13 @@
   url: /categories/
   external: false # set true if you using external link, see below
 
-- title: HASHTAG
+- title: TAG
   url: /tags/
   external: false
+
+- title: WHO-SEKAI
+  url: https://who-sekai.vercel.app/ownsgks
+  external: true
 
 - title: CONTACT
   url: /contact/
