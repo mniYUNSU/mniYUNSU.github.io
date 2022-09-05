@@ -13,7 +13,7 @@ description: 외부에서 이미지 파일을 불러왔을 때 발생하는 에�
 이미지 주소를 사용한 이미지, 또는 외부에서 이미지 파일을 불러왔을 때 발생하는 에러이다.
 
 <figure>
-<img src="./../../images/next-image-error1.png" alt="next-image-error1">
+<img src="./../../images/next-image-error2.png" alt="next-image-error1">
 </figure>
 
 # 해결
