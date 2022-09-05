@@ -2,6 +2,7 @@
 layout: post
 title: Next.js Error Invalid src prop {url} on `next/image`
 date: 2022-08-25 09:29:20 +07:00
+modified: 2022-09-05 09:29:20 +07:00
 categories: [Next.js Essentials]
 tags: [Next.js, Error]
 description: 외부에서 이미지 파일을 불러왔을 때 발생하는 에러.
@@ -23,7 +24,7 @@ description: 외부에서 이미지 파일을 불러왔을 때 발생하는 에�
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['texture-image.s3.ap-northeast-2.amazonaws.com']
+    domains: ['xxxxxxxxxx.s3.ap-northeast-2.amazonaws.com']
     // 이곳에 에러메세지의 hostname 다음 따옴표에 오는 링크를 적으면 된다.
   }
 };
