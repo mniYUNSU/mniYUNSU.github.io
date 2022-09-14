@@ -33,10 +33,14 @@ description: 반응형 웹 페이지 구성을 위해 css 엘리먼트를 디바
 
 <a href="https://www.w3.org/TR/mediaqueries-4/#mf-interaction" target="\_blank" rel="noopener">Interaction Media Features</a>를 사용하여 사용자가 웹 페이지와 어떻게 인터랙션하는지 css로 판단할 수 있다.
 
-|               | `pointer:none` | `pointer:coarse`        | `pointer:fine`                                            |
-| ------------- | -------------- | ----------------------- | --------------------------------------------------------- |
-| `hover:none`  | 키보드         | 스마트폰, 터치 스크린   | 스타일러스 기기(와콤)                                     |
+<div class="overflow-table" markdown="block">
+
+|               | `pointer:none` |    `pointer:coarse`     |                      `pointer:fine`                       |
+| :-----------: | :------------: | :---------------------: | :-------------------------------------------------------: |
+| `hover:none`  |     키보드     |  스마트폰, 터치 스크린  |                   스타일러스 기기(와콤)                   |
 | `hover:hover` |                | 닌텐도 컨트롤러, 키넥트 | 마우스, 터치 패드, 고급 스타일러스 기기(삼성 노트 시리즈) |
+
+</div>
 
 테이블이 크게 `pointer` 와 `hover` 로 나뉘어져 있다. 이는 사용자가 사용하는 디바이스의 **기본 포인팅 장치**가 어떤 특성이 있는지 확인한다.
 
