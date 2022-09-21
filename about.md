@@ -69,9 +69,9 @@ comments: false
 
 - **사용 기술** : <img src="https://img.shields.io/badge/React Native-B7178C?style=flat-square&logo=react&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white"/> <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=Jira&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>
 
-### 2022.07
+### 2022.07, 2002.09
 
-#### 코드스테이츠 선배적 참견 시점 연사 참가
+#### 코드스테이츠 선배적 참견 시점 연사 참가 - 2회
 
 **선배적 참견 시점** : 선배 수강생의 시점으로 코스를 진행하며 하지 말았으면 하는 행동들과, 꼭 했으면 하는 행동들에 대해 전달 해주어 후배 수강생들의 시행 착오를 줄여주고 학습 성취도를 올려주기 위한 라이브 세션 - **<a href="https://yoshiground.notion.site/bf13a1a3354c4fba98a1c25b56c6c175" target="_blank" rel="noopener">발표 자료</a>**
 
