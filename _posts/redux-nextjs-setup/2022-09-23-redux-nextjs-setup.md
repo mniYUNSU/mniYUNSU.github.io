@@ -5,7 +5,7 @@ date: 2022-09-23 00:00:00 +07:00
 categories: [Next.js Essentials]
 tags: [Next.js, Redux, Typescript]
 description: How to Add Redux Toolkit to My Project
-modified: 2022-09-23 00:00:00 +07:00
+modified: 2022-09-24 00:00:00 +07:00
 ---
 
 # 개요
