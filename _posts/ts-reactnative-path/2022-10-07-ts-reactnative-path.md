@@ -5,6 +5,7 @@ date: 2022-10-07 09:29:20 +0700
 categories: [React Native Essentials]
 tags: [React Native, Typescript]
 description: 절대 경로를 설정하여 import 시 발생하는 긴 상대경로 지옥을 없엘 수 있다.
+modified: 2022-10-09 00:00:00 +07:00
 ---
 
 이미지 파일이나 리액트 컴포넌트, 함수 등을 `import` 로 가져올 때 그 파일의 상대 경로를 통해 가져올 수 있다.
