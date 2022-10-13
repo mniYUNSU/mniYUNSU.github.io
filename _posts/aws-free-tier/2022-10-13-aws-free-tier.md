@@ -5,7 +5,7 @@ date: 2022-10-13 00:00:00 +0700
 categories: [Common]
 tags: [AWS, Common]
 description: AWS Free Tier 가 최근에 만료되었다. 만료 알림을 무시했었던 것을 후회한다.
-modified: 2022-10-13 00:00:00 +07:00
+modified: 2022-10-14 00:00:00 +07:00
 ---
 
 # 개요
