@@ -5,7 +5,7 @@ date: 2022-10-27 00:00:00 +07:00
 categories: [React Native Essentials]
 tags: [React Native, Typescript]
 description: How to make collapsing textarea with react native
-modified: 2022-10-27 00:00:00 +07:00
+modified: 2022-10-28 00:00:00 +07:00
 ---
 
 # 개요
@@ -14,6 +14,7 @@ modified: 2022-10-27 00:00:00 +07:00
 
 <figure>
 <img src="./../../images/react-native-text-more-button1.png" alt="react-native-text-more-button1">
+<br>
 <img src="./../../images/react-native-text-more-button2.png" alt="react-native-text-more-button2">
 <figcaption>Fig 1. 텍스트 영역 확대 및 축소 UI</figcaption>
 </figure>
@@ -108,7 +109,14 @@ export default DetailText;
 
 이 Props 의 매개 변수에는 `nativeEvent` 가 존재하며, 그 내부에 `lines` 라는 변수가 존재한다. 이 변수는 텍스트 영역의 화면 상에 보이는 텍스트 줄 수 마다 할당된 텍스트를 배열로 갖고 있다.
 
-그래서 위 코드를 보면 텍스트 줄 수가 3을 초과할 때 펼치기 / 축소 를 사용할 것이므로, 0번째 줄(텍스트로 치면 첫 번째 줄) 부터 3번째 줄 까지 잘라내어 이 텍스트를 하나의 스트링으로 합친다. 그렇게 만들어진 텍스트를 `setTruncatedText` 를 통해 할당한다.
+그래서 위 코드를 보면 텍스트 줄 수가 3을 초과할 때 **펼치기 / 축소** 를 사용할 것이므로, 0번째 줄(**텍스트로 치면 첫 번째 줄**) 부터 3번째 줄 까지 잘라내어 이 텍스트를 하나의 스트링으로 합친다. 그렇게 만들어진 텍스트를 `setTruncatedText` 를 통해 할당한다. **펼치기 / 축소** 버튼이 다음 줄로 넘어가는 것을 방지하고자 축소된 텍스트의 일부를 잘라내어 할당했다.
+
+# 결과 화면
+
+<figure>
+<img src="./../../images/react-native-text-more-button3.gif" alt="react-native-text-more-button3">
+<figcaption>Fig 2. 결과 화면</figcaption>
+</figure>
 
 ### References
 

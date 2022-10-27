@@ -20,6 +20,7 @@ gem 'github-pages', group: :jekyll_plugins
 # gem "github-pages"
 # gem "github-pages"
 gem 'rdiscount'
+# gem 'eventmachine'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
