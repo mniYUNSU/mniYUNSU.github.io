@@ -5,7 +5,7 @@ date: 2022-10-27 00:00:00 +07:00
 categories: [React Native Essentials]
 tags: [React Native, Typescript]
 description: How to make collapsing textarea with react native
-modified: 2022-10-28 00:00:00 +07:00
+modified: 2022-10-30 00:00:00 +07:00
 ---
 
 # 개요
