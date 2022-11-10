@@ -62,23 +62,7 @@ const WebViewTabs = () => {
         name='WebViewRoot'
         component={WebViewContainer}
         options={{
-          title: '홈',
-          transitionSpec: {
-            open: {
-              animation: 'spring',
-              config: {
-                stiffness: 2000,
-                damping: 1000
-              }
-            },
-            close: {
-              animation: 'spring',
-              config: {
-                stiffness: 1000,
-                damping: 500
-              }
-            }
-          }
+          title: '홈'
         }}
       />
     </Stack.Navigator>
@@ -148,7 +132,26 @@ export default Navigation;
 
 네비게이션 옵션으로는 헤더를 가리기 위한 옵션과 `TransitionPresets.SlideFromRightIOS` 을 설정했다. 이는 iOS 의 페이지 트랜지션 프리셋을 Android 에도 동일하게 적용하기 위함이다.
 
-`Stack Screen` 의 `component` 로 `WebViewContainer` 를 설정했다. 옵션으로 설정한 `transitionSpec` 은 페이지 전환 애니메이션 속도를 조정한 것이다.
+`Stack Screen` 의 `component` 로 `WebViewContainer` 를 설정했다. 옵션으로 아래와 같이 `transitionSpec` 을 설정하면 페이지 전환 애니메이션 속도를 조정할 수 있다.
+
+```js
+          transitionSpec: {
+            open: {
+              animation: 'spring',
+              config: {
+                stiffness: 2000,
+                damping: 1000
+              }
+            },
+            close: {
+              animation: 'spring',
+              config: {
+                stiffness: 1000,
+                damping: 500
+              }
+            }
+          }
+```
 
 ### webViewContainer.tsx
 
