@@ -35,7 +35,7 @@ modified: 2022-11-10 00:00:00 +07:00
 
 <br>
 
-```tsx
+```jsx
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
@@ -156,7 +156,7 @@ export default Navigation;
 
 이 컴포넌트에서 웹 뷰의 페이지 라우팅 전환이 발생하면 `Stack Navigation` 을 통한 페이지 전환이 일어날 수 있도록 `onMessage` 를 처리해야 한다.
 
-```tsx
+```jsx
 import React from 'react';
 import { StackActions } from '@react-navigation/native';
 import WebView, { WebViewMessageEvent } from 'react-native-webview';
@@ -214,7 +214,7 @@ export default WebViewContainer;
 
 <br>
 
-```ts
+```js
 export const RN_API = {
   ROUTER_CHANGE: 'ROUTER_CHANGE'
 };
@@ -271,7 +271,7 @@ export const WebViewMessage = async (type: string, data: any) =>
 
 <br>
 
-```ts
+```js
 import { NextRouter } from 'next/router';
 import { RN_API, WebViewMessage } from './webViewMessage';
 
@@ -315,7 +315,7 @@ export const stackRouterPush = (router: NextRouter, url: string) => {
 
 이를 이제 웹에서 페이지 전환을 적용하려는 페이지 또는 컴포넌트에 아래와 같이 사용해주면 된다.
 
-```tsx
+```jsx
 import { useRouter } from 'next/router';
 import { stackRouterPush, stackRouterBack } from '@/utils/index';
 
