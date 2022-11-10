@@ -15,7 +15,7 @@ modified: 2022-11-10 00:00:00 +07:00
 웹 뷰를 기반으로 한 하이브리드 앱은 크다면 크고 사소하다면 사소한 문제가 하나 있다. 단순한 **웹 뷰만 제공하는 앱이라면 웹 뷰의 페이지 라우팅이 변경될 때 페이지 전환 효과 없이 화면이 깜빡이면서 이동한다는 것**이다.
 
 <figure>
-<img src="./../../images/webview-stack-navitation1.gif" alt="webview-stack-navigation">
+<img src="./../../images/webview-stack-navigation1.gif" alt="webview-stack-navigation">
 <figcaption>Fig 1. 일반적인 웹뷰의 페이지 이동</figcaption>
 </figure>
 
@@ -338,7 +338,7 @@ export default function TestPage() {
 모든 과정을 마치면 앱에서 `Stack Navigation` 이 잘 적용된 것을 확인할 수 있다.
 
 <figure>
-<img src="./../../images/webview-stack-navitation2.gif" alt="webview-stack-navigation2">
+<img src="./../../images/webview-stack-navigation2.gif" alt="webview-stack-navigation2">
 <figcaption>Fig 2. 앱에서 웹 뷰의 페이지 전환</figcaption>
 </figure>
 
