@@ -1,11 +1,11 @@
 ---
 layout: post
-title: React Native Webview에 페이지 이동 트랜지션 적용하기
+title: React Native Webview에 페이지 전환 트랜지션 적용하기
 date: 2022-11-10 00:00:00 +07:00
 categories: [React Native Essentials]
 tags: [React Native, Typescript]
 description: How to Create a Stack Navigation for React Native Webview
-modified: 2022-11-10 00:00:00 +07:00
+modified: 2022-11-16 00:00:00 +07:00
 ---
 
 # 개요
