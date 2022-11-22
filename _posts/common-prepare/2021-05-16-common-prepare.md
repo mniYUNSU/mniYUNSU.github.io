@@ -1,10 +1,10 @@
 ---
-layout: post
-title: '마음가짐'
-date: 2021-07-16 09:29:20 +0700
-categories: []
-tags: []
-description: 항상 대비하라.
+# layout: post
+# title: '마음가짐'
+# date: 2021-07-16 09:29:20 +0700
+# categories: []
+# tags: []
+# description: 항상 대비하라.
 ---
 
 # 안녕하세요!
