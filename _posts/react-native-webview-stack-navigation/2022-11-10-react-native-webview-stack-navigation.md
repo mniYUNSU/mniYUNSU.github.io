@@ -5,7 +5,7 @@ date: 2022-11-10 00:00:00 +07:00
 categories: [React Native Essentials]
 tags: [React Native, Typescript]
 description: How to Create a Stack Navigation for React Native Webview
-modified: 2022-11-16 00:00:00 +07:00
+modified: 2022-11-22 00:00:00 +07:00
 ---
 
 # 개요
@@ -119,7 +119,7 @@ export default Navigation;
 
 앱을 오픈하면 스플래쉬 화면이 보이고, 로그인 화면으로 진입한다. 로그인에 성공하면 메인 홈 화면을 띄우게 된다.
 
-기본 홈 화면은 웹 뷰의 홈 화면이며, React Native 로 구성된 마이페이지로 진입하기 위해 Bottom Tab 이 존재한다.
+기본 홈 화면은 웹 뷰의 홈 화면이며, React Native 로 구성된 마이 페이지로 진입하기 위해 Bottom Tab 이 존재한다.
 
 `스플래쉬 - 로그인 - 메인 홈 화면`이 Stack Group 으로 묶여있다.
 
@@ -314,7 +314,7 @@ export const stackRouterPush = (router: NextRouter, url: string) => {
 
 재사용을 위해 만든 `WebViewMessage` 를 활용해 웹에서 페이지 전환이 뒤로 가기인 경우와 푸시인 경우를 분기하여 앱으로 `ROUTER_CHANGE` 이벤트를 보낸다.
 
-앱이 아니라면 기존 Next.js router 를 통해 그대로 라우팅하게 된다.
+앱이 아니라면 기존 **Next.js router** 를 통해 그대로 라우팅하게 된다.
 
 이를 이제 웹에서 페이지 전환을 적용하려는 페이지 또는 컴포넌트에 아래와 같이 사용해주면 된다.
 
