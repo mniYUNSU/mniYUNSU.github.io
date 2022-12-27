@@ -5,7 +5,7 @@ date: 2022-12-05 00:00:00 +07:00
 categories: [React Native Essentials]
 tags: [React Native]
 description: How to Handle Screen Orientation for React Native App
-modified: 2022-12-05 00:00:00 +07:00
+modified: 2022-12-27 00:00:00 +07:00
 ---
 
 # 개요
