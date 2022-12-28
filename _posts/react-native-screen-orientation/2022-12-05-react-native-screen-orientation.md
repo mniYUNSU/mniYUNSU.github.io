@@ -45,17 +45,17 @@ modified: 2022-12-27 00:00:00 +07:00
 
 ```xml
 <dict>
-<!-- ... -->
+// ...
   <key>UISupportedInterfaceOrientations</key>
   <array>
-    <!-- 세로모드 -->
+    // 세로모드
     <string>UIInterfaceOrientationPortrait</string>
-    <!-- 디바이스를 오른쪽으로 회전하면 가로모드 -->
+    // 디바이스를 오른쪽으로 회전하면 가로모드
     <string>UIInterfaceOrientationLandscapeRight</string>
-    <!-- 디바이스를 왼쪽으로 회전하면 가로모드 -->
+    // 디바이스를 왼쪽으로 회전하면 가로모드
     <string>UIInterfaceOrientationLandscapeLeft</string>
   </array>
-<!-- ... -->
+// ...
 </dict>
 ```
 
