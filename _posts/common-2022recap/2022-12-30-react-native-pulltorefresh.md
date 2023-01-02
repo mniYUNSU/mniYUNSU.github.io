@@ -7,3 +7,5 @@ tags: [Common, 2022 RECAP]
 description: My 2022 Recap
 modified: 2022-12-31 00:00:00 +07:00
 ---
+
+# 첫 개발자로서의 커리어
