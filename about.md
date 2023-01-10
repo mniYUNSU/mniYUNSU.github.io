@@ -69,7 +69,7 @@ comments: false
 
 - **사용 기술** : <img src="https://img.shields.io/badge/Typescript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/> <img src="https://img.shields.io/badge/Styled Components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>
 
-### 2022.07, 2002.09
+### 2022.07, 2022.09
 
 #### 코드스테이츠 선배적 참견 시점 연사 참가 - 2회
 
