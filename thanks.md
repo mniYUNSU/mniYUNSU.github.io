@@ -16,14 +16,14 @@ comments: false
 <br>_2022.07_<br>
 
 <figure>
-<img src="./squidgame.gif" alg="mniYUNSU who-sekai" style="border-radius: 50px ;box-shadow:0px 0px 10px #000" >
-<figcaption>Fig 1. 무궁화 꽃이 피었습니다~👧</figcaption>
+<img src="./2022recap4.png" alg="mniYUNSU who-sekai" style="border-radius: 50px ;box-shadow:0px 0px 10px #000" >
+<figcaption>Fig 1. WHO-SEKAI</figcaption>
 </figure>
 
 #### 배포 URL 및 프로젝트 문서
 
 <i class="fas fa-link"></i>
-<a href="https://who-sekai.vercel.app" target="_blank" rel="noopener" > Who-Sekai</a>
+<a href="https://who-sekai.vercel.app" target="_blank" rel="noopener" >WHO-SEKAI</a>
 **|** <i class="fab fa-github"></i> <a href="https://github.com/mniYUNSU/who-sekai" target="_blank" rel="noopener"> 프로젝트 Repository</a>
 
 #### 사용한 기술
