@@ -11,9 +11,9 @@
 #   external: false
 # set true if you using external link, see below
 
-# - title: YUNSU
-#   url: /about/
-#   external: false # set true if you using external link, see below
+- title: YUNSU
+  url: /about/
+  external: false # set true if you using external link, see below
 
 - title: SERIES
   url: /categories/
