@@ -57,23 +57,17 @@ comments: false
 
 ##### `2022.12` 모바일 웹 소설 플랫폼 - <a href="https://piece.texture.kr" target="_blank" rel="noopener">브레드</a> 개발
 
-###### WebView + React Native 하이브리드 앱 개발
+- **WebView + React Native 하이브리드 앱** 개발
 
 - **사용 기술** : <img src="https://img.shields.io/badge/React Native-B7178C?style=flat-square&logo=react&logoColor=white"/> <img src="https://img.shields.io/badge/Typescript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/> <img src="https://img.shields.io/badge/Styled Components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>
+
+##### `2022.12` 모바일 웹 소설 플랫폼 - <a href="https://piece.texture.kr" target="_blank" rel="noopener">브레드</a> 백 오피스 개발
+
+- **사용 기술** : <img src="https://img.shields.io/badge/Typescript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/> <img src="https://img.shields.io/badge/MUI-007FFF?style=flat-square&logo=MUI&logoColor=white"/> <img src="https://img.shields.io/badge/Styled Components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>
 
 ##### `2022.08` 텍스처 오리지널 컨텐츠 - <a href="https://piece.texture.kr" target="_blank" rel="noopener">텍스처 피스</a> 개발
 
 - **사용 기술** : <img src="https://img.shields.io/badge/Typescript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/> <img src="https://img.shields.io/badge/Styled Components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>
-
-##### `2022.04` 시드 투자 경험 - <a href="https://platum.kr/archives/184933" target="_blank" rel="noopener">보도자료</a>
-
-##### `2021.11 ~ ` 모바일 소셜 독서 플랫폼 **<a href="https://www.texture.kr/" target="_blank" rel="noopener">texture</a>** 백 오피스 개발
-
-- **사용 기술** : <img src="https://img.shields.io/badge/Javascript-F36D00?style=flat-square&logo=JavaScript&logoColor=white"/> <img src="https://img.shields.io/badge/React-0088CC?style=flat-square&logo=react&logoColor=white"/> <img src="https://img.shields.io/badge/Styled Components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white"/> <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=Jira&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>
-
-##### `2022.01 ~ ` 모바일 소셜 독서 플랫폼 **<a href="https://www.texture.kr/" target="_blank" rel="noopener">texture</a>** 앱 개발
-
-- **사용 기술** : <img src="https://img.shields.io/badge/React Native-B7178C?style=flat-square&logo=react&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white"/> <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=Jira&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>
 
 ### 2022.07, 2002.09
 
@@ -92,6 +86,16 @@ comments: false
 #### 볼드피리어드
 
 소프트웨어 엔지니어 / 프론트엔드
+
+##### `2022.04` 시드 투자 경험 - <a href="https://platum.kr/archives/184933" target="_blank" rel="noopener">보도자료</a>
+
+##### `2021.11 ~ ` 모바일 소셜 독서 플랫폼 **<a href="https://www.texture.kr/" target="_blank" rel="noopener">texture</a>** 백 오피스 개발
+
+- **사용 기술** : <img src="https://img.shields.io/badge/Javascript-F36D00?style=flat-square&logo=JavaScript&logoColor=white"/> <img src="https://img.shields.io/badge/React-0088CC?style=flat-square&logo=react&logoColor=white"/> <img src="https://img.shields.io/badge/Styled Components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white"/> <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=Jira&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>
+
+##### `2022.01 ~ ` 모바일 소셜 독서 플랫폼 **<a href="https://www.texture.kr/" target="_blank" rel="noopener">texture</a>** 앱 개발
+
+- **사용 기술** : <img src="https://img.shields.io/badge/React Native-B7178C?style=flat-square&logo=react&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white"/> <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=Jira&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>
 
 ##### 텍스처 법인 분리
 
@@ -141,21 +145,33 @@ comments: false
 
 ---
 
-<!--
 <br>
 
 # Studies
 
-### 2020.05
+### 2022.08
+
+타입스크립트 2주 완성반 - <a href="https://nomadcoders.co/certs/1f32142d-cab8-4e27-9cd1-4127062bd265" target="_blank" rel="noopener">수료증</a>
+
+### 2022.07
+
+Next.JS 시작하기 - <a href="https://nomadcoders.co/certs/b9f94921-8ba8-482f-aa30-34c85d336efe" target="_blank" rel="noopener">수료증</a>
+
+### 2022.06
+
+Typescript로 블록체인 만들기 - <a href="https://nomadcoders.co/certs/19d8d782-6a10-4a12-b4bd-e72a7ce5f40b" target="_blank" rel="noopener">수료증</a>
+
+<!-- ### 2020.05
 
 #### Nomad Coders
 
 바닐라 JS로 크롬 앱 만들기
 
 - `Javascript` `ES6 Class`, `Array`, `Object` 기본 개념 및 활용법
-- `Open API`를 활용한 `fetch` 활용법
+- `Open API`를 활용한 `fetch` 활용법 -->
 
---- -->
+---
+
 <!--
 <br>
 
