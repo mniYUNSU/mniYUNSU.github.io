@@ -55,13 +55,13 @@ comments: false
 
 소프트웨어 엔지니어 / 프론트엔드
 
-##### `2022.12` 모바일 웹 소설 플랫폼 - <a href="https://piece.texture.kr" target="_blank" rel="noopener">브레드</a> 개발
+##### `2022.12 ~ ` 모바일 웹 소설 플랫폼 - <a href="https://piece.texture.kr" target="_blank" rel="noopener">브레드</a> 개발
 
 - **WebView + React Native 하이브리드 앱** 개발
   <br>
 - **사용 기술** : <img src="https://img.shields.io/badge/React Native-B7178C?style=flat-square&logo=react&logoColor=white"/> <img src="https://img.shields.io/badge/Typescript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/> <img src="https://img.shields.io/badge/Styled Components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>
 
-##### `2022.12` 모바일 웹 소설 플랫폼 - <a href="https://piece.texture.kr" target="_blank" rel="noopener">브레드</a> 백 오피스 개발
+##### `2022.12 ~ ` 모바일 웹 소설 플랫폼 - <a href="https://piece.texture.kr" target="_blank" rel="noopener">브레드</a> 백 오피스 개발
 
 - **사용 기술** : <img src="https://img.shields.io/badge/Typescript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/> <img src="https://img.shields.io/badge/MUI-007FFF?style=flat-square&logo=MUI&logoColor=white"/> <img src="https://img.shields.io/badge/Styled Components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>
 
@@ -151,27 +151,27 @@ comments: false
 
 ### 2022.08
 
+#### 타입스크립트 2주 완성반 - <a href="https://nomadcoders.co/certs/1f32142d-cab8-4e27-9cd1-4127062bd265" target="_blank" rel="noopener">수료증</a>
+
 <figure>
 <img src="./certi1.png" alg="certi1" style="border-radius: 50px ;box-shadow:0px 0px 10px #000" >
 </figure>
 
-타입스크립트 2주 완성반 - <a href="https://nomadcoders.co/certs/1f32142d-cab8-4e27-9cd1-4127062bd265" target="_blank" rel="noopener">수료증</a>
-
 ### 2022.07
+
+#### Next.JS 시작하기 - <a href="https://nomadcoders.co/certs/b9f94921-8ba8-482f-aa30-34c85d336efe" target="_blank" rel="noopener">수료증</a>
 
 <figure>
 <img src="./certi3.png" alg="certi3" style="border-radius: 50px ;box-shadow:0px 0px 10px #000" >
 </figure>
 
-Next.JS 시작하기 - <a href="https://nomadcoders.co/certs/b9f94921-8ba8-482f-aa30-34c85d336efe" target="_blank" rel="noopener">수료증</a>
-
 ### 2022.06
+
+#### Typescript로 블록체인 만들기 - <a href="https://nomadcoders.co/certs/19d8d782-6a10-4a12-b4bd-e72a7ce5f40b" target="_blank" rel="noopener">수료증</a>
 
 <figure>
 <img src="./certi2.png" alg="certi2" style="border-radius: 50px ;box-shadow:0px 0px 10px #000" >
 </figure>
-
-Typescript로 블록체인 만들기 - <a href="https://nomadcoders.co/certs/19d8d782-6a10-4a12-b4bd-e72a7ce5f40b" target="_blank" rel="noopener">수료증</a>
 
 <!-- ### 2020.05
 
