@@ -54,7 +54,7 @@ comments: false
 
 <figure>
 <img src="./squidgame.gif" alg="mniYUNSU Squid-Game" style="border-radius: 50px ;box-shadow:0px 0px 10px #000" >
-<figcaption>Fig 1. 무궁화 꽃이 피었습니다~👧</figcaption>
+<figcaption>Fig 2. 무궁화 꽃이 피었습니다~👧</figcaption>
 </figure>
 
 #### 배포 URL 및 프로젝트 문서
@@ -85,7 +85,7 @@ comments: false
 
 <figure>
 <img src="./myblog.png" alg="mniYUNSU github io" style="border-radius: 50px ;box-shadow:0px 0px 10px #000" >
-<figcaption>Fig 2. mniYUNSU.github.io</figcaption>
+<figcaption>Fig 3. mniYUNSU.github.io</figcaption>
 </figure>
 
 #### 배포 URL 및 프로젝트 문서
@@ -120,7 +120,7 @@ comments: false
 
 <figure>
 <img src="./ddo_jurimma_thumbnail.png" alg="jurimma thumbnail"  style="border-radius: 50px ;box-shadow:0px 0px 10px #000">
-<figcaption>Fig 3. 신세대 줄임말 단어 검색 서비스</figcaption>
+<figcaption>Fig 4. 신세대 줄임말 단어 검색 서비스</figcaption>
 </figure>
 
 #### 배포 URL 및 프로젝트 문서
