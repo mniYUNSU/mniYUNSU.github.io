@@ -10,7 +10,7 @@ comments: false
 
 <br>
 
-# Who-Sekai
+# WHO-SEKAI
 
 **익명 텍스트 네트워킹 서비스**
 <br>_2022.07_<br>
@@ -39,11 +39,11 @@ comments: false
 
 <br>
 
-| method | command                                                                                           |
+<!-- | method | command                                                                                           |
 | ------ | ------------------------------------------------------------------------------------------------- |
 | curl   | `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
 | wget   | `sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`   |
-| fetch  | `sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
+| fetch  | `sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` | -->
 
 ---
 
@@ -125,11 +125,7 @@ comments: false
 
 #### 배포 URL 및 프로젝트 문서
 
-<i class="fas fa-link"></i>
-
-<!-- <a href="https://jurimma.com" target="_blank" rel="noopener" > 배포 URL</a> -->
-
-**|** <i class="fab fa-github"></i> <a href="https://github.com/codestates/DDO_Jurimma" target="_blank" rel="noopener"> 프로젝트 Repository</a>
+<i class="fab fa-github"></i> <a href="https://github.com/codestates/DDO_Jurimma" target="_blank" rel="noopener"> 프로젝트 Repository</a>
 **|** <i class="fas fa-folder-open"></i> <a href="https://codestates.notion.site/16-HomeLudens-DDO_Jurimma-007b5d128e7b4883b34f71c6bb1c9679" target="_blank" rel="noopener"> 프로젝트 소개 문서</a>
 **|** <i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=n745SgA9LmI" target="_blank" rel="noopener"> 발표 영상</a>
 
