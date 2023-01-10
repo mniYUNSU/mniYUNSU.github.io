@@ -103,6 +103,9 @@ comments: false
 - `Formsfree` 사용한 이메일 보내기 기능 구현
 - 스크롤 방향에 따라 `Nav bar` 시각화
 - 페이지 크기에 따라 페이지 최상단 이동 버튼 시각화
+- 구글 서치콘솔 연결
+- 구글 애널리틱스 연결
+- 구글 애드센스 연결
 
 <br>
 
@@ -110,7 +113,7 @@ comments: false
 
 <br>
 
-# 줄임마 (DDO_JURIMMA)
+# 줄임마 (DDO_JURIMMA) - 서비스 중단
 
 **코드스테이츠 파이널 프로젝트 (4인 / 4주)**
 <br>_2021.09 - 2021.10_ <br>
@@ -123,7 +126,9 @@ comments: false
 #### 배포 URL 및 프로젝트 문서
 
 <i class="fas fa-link"></i>
-<a href="https://jurimma.com" target="_blank" rel="noopener" > 배포 URL</a>
+
+<!-- <a href="https://jurimma.com" target="_blank" rel="noopener" > 배포 URL</a> -->
+
 **|** <i class="fab fa-github"></i> <a href="https://github.com/codestates/DDO_Jurimma" target="_blank" rel="noopener"> 프로젝트 Repository</a>
 **|** <i class="fas fa-folder-open"></i> <a href="https://codestates.notion.site/16-HomeLudens-DDO_Jurimma-007b5d128e7b4883b34f71c6bb1c9679" target="_blank" rel="noopener"> 프로젝트 소개 문서</a>
 **|** <i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=n745SgA9LmI" target="_blank" rel="noopener"> 발표 영상</a>
