@@ -32,6 +32,50 @@ iOS 유저에게는 좌우 스와이프나 좌상단에 위치한 백 버튼이 
 
 이를 <a href="https://reactnative.dev/docs/backhandler" target="_blank" rel="noopener">React Native BackHandler</a> 를 통해 수정할 수 있다.
 
+# BackHandler
+
+React Native 가 제공하는 Back Handler API는 안드로이드 디바이스의 뒤로가기 기능이 목적인 물리적 백 버튼을 감지한다. 안드로이드 디바이스만 동작하는 API 이며, 백버튼 동작을 감지하여 기존 로직을 막고 새로운 로직을 추가할 수 있다.
+
+기본적으로 BackHandler 에 등록한 이벤트는 등록한 순서의 역순으로 호출된다.
+
+이벤트는 콜백 함수 형태로 등록할 수 있으며, 콜백함수는 `true` 또는 `false` 를 리턴해야 한다. `true` 를 리턴하는 것으로 커스터마이징 된 로직을 실행할 수 있으며, `false` 를 리턴하는 경우 안드로이드 디바이스의 기본 백 버튼 로직을 수행한다.
+
+```ts
+React.useEffect(() => {
+  const onAndroidBackPress = () => {
+    if (navigation.canGoBack() === false) {
+      Alert.alert('Your App', '앱을 종료하시겠습니까?', [
+        {
+          text: '취소',
+          onPress: () => null
+        },
+        { text: '확인', onPress: () => BackHandler.exitApp() }
+      ]);
+    } else {
+      navigation.goBack();
+    }
+    return true; // prevent default behavior (exit app)
+  };
+
+  const backHandler = BackHandler.addEventListener(
+    'hardwareBackPress',
+    onAndroidBackPress
+  );
+
+  return () => backHandler.remove();
+}, []);
+```
+
+위 로직을 루트 프로젝트의 `App.tsx` 에 추가하여 기본적인 안드로이드 백 버튼 로직을 추가했다.
+
+React Nativa 앱의 네비게이션 스택이 존재하는 경우 일반적인 `goBack()` 액션을 수행한다.
+
+네비게이션 스택이 없는 경우 (앱이 홈 화면에 있을 때) 안드로이드 사용자가 백 버튼을 누르면 기본 로직은 앱이 그대로 꺼지게 된다. 이는 좋지 않은 사용자 경험이기 때문에 알림 창을 띄워 종료 여부를 묻는다.
+
+`확인` 버튼을 누르면 BackHandler API 가 제공하는 앱 종료 액션을 수행하고, `취소` 버튼을 누르면 `null` 을 리턴한다.
+
+추가적인 로직이 필요한 경우 콜백 함수를 수정하는 것으로 안드로이드 디바이스의 백 버튼 로직을 커스터마이징 할 수 있다.
+
 ### References
 
 - <a href="https://reactnative.dev/docs/backhandler" target="_blank" rel="noopener">React Native BackHandler</a>
