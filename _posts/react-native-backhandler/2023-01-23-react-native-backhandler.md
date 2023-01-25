@@ -5,6 +5,7 @@ date: 2023-01-23 00:00:00 +07:00
 categories: [React Native Essentials]
 tags: [React Native]
 description: How to handle Back handler for React native android app
+modified: 2023-01-24 00:00:00 +07:00
 ---
 
 # 개요
@@ -68,7 +69,7 @@ React.useEffect(() => {
 
 위 로직을 루트 프로젝트의 `App.tsx` 에 추가하여 기본적인 안드로이드 백 버튼 로직을 추가했다.
 
-React Nativa 앱의 네비게이션 스택이 존재하는 경우 일반적인 `goBack()` 액션을 수행한다.
+React Native 앱의 네비게이션 스택이 존재하는 경우 일반적인 `goBack()` 액션을 수행한다.
 
 네비게이션 스택이 없는 경우 (앱이 홈 화면에 있을 때) 안드로이드 사용자가 백 버튼을 누르면 기본 로직은 앱이 그대로 꺼지게 된다. 이는 좋지 않은 사용자 경험이기 때문에 알림 창을 띄워 종료 여부를 묻는다.
 
