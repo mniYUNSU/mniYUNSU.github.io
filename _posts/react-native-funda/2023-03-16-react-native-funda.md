@@ -1,11 +1,11 @@
 ---
 layout: post
-title: RN vs Flutter
+title: React Native vs Flutter
 date: 2023-03-16 00:00:00 +07:00
 categories: [React Native Essentials]
 tags: [React Native]
 description: Concepts of React Native - RN vs Flutter
-modified: 2023-03-16 00:00:00 +07:00
+modified: 2023-03-20 00:00:00 +07:00
 ---
 
 # 개요
