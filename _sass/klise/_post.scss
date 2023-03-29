@@ -289,14 +289,16 @@
   // max-width: calc(#{$wide-size} - (#{$spacing-full} * 2));
   // max-width: -webkit-calc(#{$wide-size} - (#{$spacing-full} * 2));
   position: fixed;
-  bottom: 7vh;
+  top: 7vh;
+  // bottom: 7vh;
   // left: 0;
   // right: calc(#{$wide-size} - (#{$spacing-full} * 3));
   // right: -webkit-calc(#{$wide-size} - (#{$spacing-full} * 3));
   // z-index: 2;
-  left: calc(((100% - 890px) / 2 - 270px));
+  right: calc(((100% - 890px) / 2 - 270px));
   margin-right: auto;
   margin-left: auto;
+  display: none;
   // margin: 50px;
   @extend %clearfix;
   @include media-query($on-mobile) {
@@ -305,9 +307,9 @@
   @include media-query($on-widescreen) {
     display: none;
   }
-  // @include media-query($on-adscreen) {
-  //   display: none;
-  // }
+  @include media-query($on-adscreen) {
+    display: none;
+  }
 }
 .toc {
 }
