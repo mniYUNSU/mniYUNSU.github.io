@@ -298,7 +298,7 @@
   right: calc(((100% - 890px) / 2 - 270px));
   margin-right: auto;
   margin-left: auto;
-  display: none;
+  // display: none;
   // margin: 50px;
   @extend %clearfix;
   @include media-query($on-mobile) {
