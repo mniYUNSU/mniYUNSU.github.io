@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Swift 입문
+title: Swift 입문 1일차
 date: 2023-07-13 00:00:00 +07:00
 categories: [Swift Essentials]
 tags: [Swift]
