@@ -5,7 +5,7 @@ date: 2023-07-19 00:00:00 +07:00
 categories: [Swift Essentials]
 tags: [Swift]
 description: Swift Introduction
-modified: 2023-07-19 00:00:00 +07:00
+modified: 2023-07-20 00:00:00 +07:00
 ---
 
 # 개요
@@ -430,3 +430,474 @@ let user = User.getUserFromJson(jsonFromServer) // User(nickname: "개발자 배
 `Codable` 은 주로 `REST API` 핸들링에서 사용된다.
 
 # 멀티 트레일링 클로저
+
+멀티 트레일링 클로저란 매개변수 클로저를 여러개 가지는 메소드이다.
+
+```swift
+func someFunctionWithClosures(first: () -> Void, second: (String) -> Void, third: (Int) -> Void) {
+    first()
+    second("하이")
+    third(3)
+}
+
+someFunctionWithClosures(first: {print("첫번째")}, second: {print("두번째 \($0)")}, third: {print("세번째 \($0)")})
+
+someFunctionWithClosures {
+    print("first")
+} second: { string in
+    print("second \(string)")
+} third: { number in
+    print("third \(number)")
+}
+```
+
+<br>
+
+# Convenience Init
+
+`Convenience Init` 은 추가 생성자로서, 클래스가 갖고 있는 생성자에 추가로 로직을 실행할 수 있다.
+
+```swift
+// 추가 생성자
+class Friend {
+    var name: String
+    var age: Int
+    init(name: String){
+        self.name = name
+        self.age = 10
+    }
+    // 기존에 내가 갖고 있는 생성자에 추가해 무언가를 더 할 수 있다.
+    convenience init(name: String, age: Int) {
+        self.init(name: name)
+        self.age = age
+    }
+}
+
+let myFriend = Friend(name: "윤수", age: 20)
+myFriend.age // 20
+```
+
+<br>
+
+# 디자인 패턴 - 빌더
+
+객체 생성 관련 디자인 패턴 중 하나인 `Builder` 패턴이다.
+
+```swift
+// 만들어 주는 것을 만든다.
+// 핵심은 자기 자신을 뱉는다.
+
+struct Pet {
+    var name: String? = nil
+    var age: Int? = nil
+}
+
+class PetBuilder {
+    private var pet : Pet = Pet()
+    func withName(_ name: String) -> Self {
+        pet.name = name
+        return self
+    }
+    func withAge(_ age: Int) -> Self {
+        pet.age = age
+        return self
+    }
+    func build() -> Pet {
+        return self.pet
+    }
+}
+
+let myPet = PetBuilder().withName("헬로우").withAge(10).build()
+myPet
+```
+
+핵심은 만드려는 객체에 원하는 값들을 넣어서 객체를 구현하고, 마지막에 빌드라는 것을 통해 객체 스스로를 리턴하여 변수에 할당하는 것이다.
+
+# 콜렉션 합치기
+
+콜렉션을 합칠 때 변수에 `append` 를 통해 합칠 수 있지만, 단순히 `+` 로 사용할 수 있다.
+
+```swift
+// 콜렉션 - list [], set<>, dictionary[:}
+let myFriends = ["철수", "영희", "윤수"]
+let otherFriends: Set<String> = ["영수", "짱구", "강인"]
+
+let totalFriends = myFriends + otherFriends
+totalFriends // ["철수", "영희", "윤수", "영수", "짱구", "강인"]
+```
+
+<br>
+
+# Reduce
+
+`Reduce` 는 콜렉션에 사용할 수 있는 고차함수 중 하나로, 값들을 축적해가며 합치는 것이다.
+
+```swift
+struct Friend: Hashable {
+    var name: String
+    var age: Int
+}
+
+let myFriends = [
+    Friend(name: "철수", age: 10),
+    Friend(name: "민수", age: 10),
+    Friend(name: "짱구", age: 20),
+    Friend(name: "맹구", age: 20),
+    Friend(name: "윤수", age: 30),
+]
+
+// reduce - 축적하여 합친다. 초기값 0으로
+// partialResult - 축적된 값
+let totalAge = myFriends.reduce(0) { partialResult, aFriend in
+    partialResult + aFriend.age
+}
+totalAge // 90
+
+// dictionary 로 같은 나이별로 그룹핑하겠다.
+let groupedFriends = myFriends.reduce(into: [:]) { partialResult, aFriend in
+    partialResult[aFriend.age] = myFriends.filter{
+        $0.age == aFriend.age
+    }
+}
+groupedFriends
+```
+
+<br>
+
+# 콜렉션 간 변형
+
+콜렉션 간 변형을 통해 중복요소 제거, 정렬 등을 수행할 수 있다.
+
+```swift
+let numbers = [1,1,1,5,5,9,7]
+
+// list -> set
+let uniqueNumbers = Set(numbers)
+uniqueNumbers // {7, 5, 1, 9}
+
+// set 을 리스트로 정렬
+var uniqueNumbersArranged = Array(uniqueNumbers) // [5, 7, 9, 1]
+uniqueNumbersArranged.sort() // [1, 5, 7, 9]
+```
+
+<br>
+
+# Optional chaining
+
+Optional Chaining 은 `?` 연산자를 통해 처리할 수 있다.
+
+```swift
+struct Friend {
+    let nickname: String
+    let person: Person?
+}
+
+struct Person {
+    let name: String
+    let pet: Pet?
+}
+
+struct Pet {
+    let name: String?
+    let kind: String
+}
+
+let pet = Pet(name: "냥냥", kind: "고양이")
+let person = Person(name: "윤수", pet: pet)
+let friend = Friend(nickname: "mni", person: nil)
+
+// 데이터가 있을 수 있고 없을 수 있다.
+
+// 옵셔널 체이닝
+if let petName = friend.person?.pet?.name{
+    print("petname \(petName)")
+} else {
+    print("petname 없음") // petname 없음
+}
+
+func getPetName() {
+    guard let petName = friend.person?.pet?.name else {
+        print("petname 없음")
+        return
+    }
+    print("petname \(petName)")
+}
+
+getPetName() // petname 없음
+
+// 옵셔널 바인딩
+//if let person = friend.person, let pet = person.pet, let petName = pet.name {
+//    // 모든 데이터가 존재함
+//    print("petName \(petName)")
+//} else {
+//    print("데이터 없음")
+//}
+
+//if let person: Person = friend.person {
+//    if let pet = person.pet {
+//        if let petName = pet.name {
+//            print("petname : \(petName)") // petname : 냥냥
+//        } else {
+//            print("no petname")
+//        }
+//    }
+//}
+```
+
+`if let` 은 먼저 모든 데이터를 언래핑 했을 때 존재할 때의 로직을 먼저 적고, `guard let` 은 `else` 문 즉 `nil` 데이터가 있을 때의 로직을 처리 후 리턴한다.
+
+# Equatable
+
+`Equatable` 은 `struct` 간 비교가 가능하도록 편리하게 만들어주는 프로토콜이다.
+
+```swift
+// equatable protocol
+// struct 간 비교 가능하도록 만들어준다.
+struct Pet : Equatable {
+    let id: String
+    let name: String
+    // 같은지 체크
+    static func == (lhs: Pet, rhs: Pet) -> Bool {
+        return lhs.id == rhs.id
+    }
+    static func != (lhs: Pet, rhs: Pet) -> Bool {
+        return lhs.id != rhs.id
+    }
+}
+
+let myPet1 = Pet(id: "01", name: "고양이")
+let myPet2 = Pet(id: "02", name: "강아지")
+let myPet3 = Pet(id: "01", name: "냥이")
+
+if myPet1.id == myPet3.id {
+    print("같은 Pet")
+}
+
+if myPet1 == myPet3 {
+    print("같은 Pet임")
+}
+
+if myPet1 != myPet2 {
+    print("다른 Pet임")
+}
+```
+
+<br>
+
+# Zip
+
+zip 은 두 콜렉션을 묶을 때 사용한다.
+
+```swift
+let friends = ["철수", "영희", "짱구"]
+let pets = ["고양이", "강아지"]
+
+// 두 콜렉션을 묶고 싶을때 사용 - 크기가 같아질 때 까지
+let friendAndPetPairs = zip(friends, pets)
+
+for aPair in friendAndPetPairs {
+    print("\(aPair.0), \(aPair.1)")
+//    철수, 고양이
+//    영희, 강아지
+}
+```
+
+<br>
+
+# Range
+
+Range 를 통해 변수를 범위로 만들 수 있고, 원하는 범위만큼 반복을 수행할 수 있다.
+
+```swift
+import UIKit
+
+let myRange = 0...2 // 0, 1, 2
+let mySecondRange = 0..<2 // 0, 1
+let myThirdRange = 0...Int.max
+
+let myFriends = ["철수", "짱구", "맹구", "윤수"]
+
+myFriends[mySecondRange] // ["철수", "짱구"]
+
+if mySecondRange.contains(2) {
+    print("conatin")
+} else {
+    print("not contain")
+}
+```
+
+<br>
+
+# Open
+
+`open class` 는 외부 모듈에 있는 것을 상속 받기 위해 사용한다.
+
+```swift
+// 외부 모듈에 있는 것을 상속 받기 위해 사용하는 것 - open
+open class Utils {
+    open class func sayHello() {
+        print("안녕하세요~~")
+    }
+}
+```
+
+# struct 기본 생성자
+
+`struct` 는 생성자 메소드가 자동 탑재되어 있다. `struct` 안에서 생성자를 따로 지정 가능하지만 `extension` 으로 빼서 기본 생성자 지정이 가능하다
+
+```swift
+struct Pet {
+    var name: String
+}
+
+// struct 는 생성자 메소드가 자동 탑재되어 있음
+// struct 안에서 생성자를 따로 지정 가능하지만
+// extension 으로 빼서 기본 생성자 지정이 가능함
+
+extension Pet {
+    init(){
+        name = "고양이"
+    }
+}
+
+let myPet = Pet() // 고양이
+let myCat = Pet(name: "강아지") // 강아지
+```
+
+<br>
+
+# Singleton 패턴
+
+싱글톤 패턴은 디자인 패턴 중 하나로, 객체 생성 디자인 패턴 중 하나이며, 가장 유명하다.
+
+메모리를 하나만 사용하여 객체를 생성한다는 의미이다.
+
+```swift
+import UIKit
+
+// 한 메모리 공간에 값을 올릴 수 있다.
+ final class Pet {
+    static let shared = Pet()
+    private init() {}
+
+    var name: String = "고양이"
+}
+
+
+Pet.shared.name = "강아지"
+// myCat과 myDog 는 메모리 주소가 같아진다.
+let myCat = Pet.shared
+myCat.name
+let myDog = Pet.shared
+```
+
+<br>
+
+# Toggle
+
+toggle 이란 Bool 값을 간단하게 스위칭할 수 있도록 하는 메소드이다.
+
+```swift
+import UIKit
+
+var isDarkMode : Bool = false
+
+isDarkMode.toggle() // true
+```
+
+<br>
+
+# 프로토콜 조건 적용
+
+protocol 에 조건을 적용하여 지정한 클래스의 메소드만 사용 가능하도록 만들 수 있다.
+
+```swift
+import UIKit
+
+protocol Naming{
+    var name: String {get set}
+}
+
+class Cat : Naming {
+    var name: String
+    init(name: String) {
+        self.name = name
+    }
+}
+
+class Dog : Naming {
+    var name: String
+    init(name: String) {
+        self.name = name
+    }
+}
+
+extension Naming  {
+    func sayName() where Self : Cat {
+        print("\(self.name) 냥냥")
+    }
+    func sayName() where Self : Dog {
+        print("\(self.name) 멍멍")
+    }
+}
+
+let myDog = Dog(name: "멍멍이")
+let myCat = Cat(name: "야옹이")
+myCat.sayName()
+myDog.sayName()
+```
+
+<br>
+
+# 자료형 체크
+
+자료형 체크는 `is` 로 할 수 있다.
+
+`if` , `guard`, `if case`, `switch` 등으로 자료형을 체크할 수 있다.
+
+```swift
+import UIKit
+
+class Cat {}
+class Dog {}
+
+let myCat = Cat()
+let myDog = Dog()
+
+if myCat is Cat {
+    print("고양이다")
+}
+
+func checkIfSheIsCat () {
+    guard myCat is Cat else {
+        print("고양이가 아니다")
+        return
+    }
+    print("고양이다")
+}
+
+checkIfSheIsCat()
+
+switch myCat {
+case is Cat:
+    print("고양이다")
+default :
+    print("고양이 아니다")
+}
+
+if case is Cat = myCat {
+    print("고양이다")
+}
+
+func checkIfSheIsDog(){
+    guard case is Dog = myDog else {
+        print("강아지가 아니다")
+        return
+    }
+    print("강아지다")
+}
+
+checkIfSheIsDog()
+```
+
+<br>
