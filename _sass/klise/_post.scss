@@ -124,7 +124,6 @@
   border: 2px solid $light;
   text-align: center;
   margin: auto;
-  // background: $white;
   background: lighten($light, 12%);
   font-weight: $bold-weight;
   font-size: $base-font-size;
@@ -145,15 +144,26 @@
   }
 }
 
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: $smoke;
+  border-radius: 9999px;
+}
+
 .paragraph-nav {
   display: none;
   width: 240px;
   padding: 1.25rem 1.5rem;
-  border: 1px solid $light;
+  // border: 1px solid $light;
   border-radius: 12px;
   background: lighten($light, 12%);
-  // overflow-y: auto;
-  max-height: 800px;
+  overflow-y: auto;
+  max-height: 600px;
   box-shadow: 4px 8px 24px rgba(0, 0, 0, 0.08);
   pointer-events: auto;
 
@@ -227,14 +237,17 @@
     top: 0;
     left: 0;
     width: min(280px, 70vw);
-    height: 100vh;
+    height: 100%;
     padding-top: 5rem;
+    padding-bottom: 5rem;
     border-radius: 0;
     border-right: 1px solid $light;
     border-left: 0;
     border-top: 0;
     border-bottom: 0;
-    max-height: none;
+    max-height: 100vh;
+    box-sizing: border-box;
+    overflow-y: auto;
     transform: translateX(-105%);
     // opacity: 0;
     // display: none;
@@ -242,7 +255,6 @@
     box-shadow: 4px 0 16px rgba(0, 0, 0, 0.15);
     z-index: 300;
     pointer-events: none;
-
     &.is-visible {
       transform: translateX(0);
       pointer-events: auto;
