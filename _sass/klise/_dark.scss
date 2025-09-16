@@ -147,6 +147,58 @@ body[data-theme='dark'] {
     span[itemprop='author'] {
       border-color: $dark-light;
     }
+
+    .reading-time {
+      color: $dark-gray;
+
+      &::before {
+        color: $dark-gray;
+      }
+    }
+  }
+
+  .paragraph-nav__toggle {
+    border-color: rgba($dark-light, 0.7);
+    background: lighten($dark-black, 12%);
+    // background: $dark-black;
+    color: $dark-white;
+
+    &:hover,
+    &:focus {
+      border-color: $dark-text-link-blue;
+      color: $dark-text-link-blue;
+    }
+
+    &[aria-expanded='true'] {
+      background: rgba($dark-text-link-blue, 0.3);
+      border-color: $dark-text-link-blue;
+      color: $dark-white;
+    }
+  }
+
+  .paragraph-nav {
+    border-color: rgba($dark-light, 0.6);
+    // background: lighten($dark-light, 12%);
+    background: rgba($dark-black, 1);
+    box-shadow: 4px 8px 24px rgba($dark-black, 0.6);
+
+    .paragraph-nav__link {
+      // background: rgba($dark-white, 0.04);
+      color: $dark-white;
+
+      &:hover,
+      &:focus {
+        // background: rgba($dark-text-link-blue, 0.15);
+        border-color: $dark-text-link-blue;
+        color: $dark-text-link-blue;
+      }
+    }
+  }
+
+  @media screen and (min-width: $on-tablet) {
+    .paragraph-nav {
+      box-shadow: none;
+    }
   }
 
   // Link

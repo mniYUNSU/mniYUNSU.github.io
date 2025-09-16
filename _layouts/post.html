@@ -61,6 +61,11 @@ layout: compress
           </div>
           {% endif %}
           {% if page.date %}
+          {% assign words = page.content | strip_html | number_of_words %}
+          {% assign reading_time = words | plus: 199 | divided_by: 200 %}
+          {% if reading_time < 1 %}
+            {% assign reading_time = 1 %}
+          {% endif %}
           <div class="post-meta">
             <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
               {{ page.date | date: "%Y년 %m월 %d일" }}에 기록
@@ -76,18 +81,30 @@ layout: compress
             <span hidden itemprop="publisher" itemtype="Person">{{ site.author.name }}</span>
             <span hidden itemprop="image">{{ page.image }}</span>
             <span hidden itemprop="mainEntityOfPage">{{ page.excerpt }}</span>
+            <span class="reading-time" data-reading-minutes="{{ reading_time }}">
+              약 {{ reading_time }}분 소요
+            </span>
           </div>
           {% endif %}
         </header>
 
-        <div class="page-content" itemprop="articleBody">
-          {% include anchor_headings.html html=content anchorClass="anchor-head" beforeHeading=true h_min=1 h_max=4 %}
+        <div class="post-body">
+          <button class="paragraph-nav__toggle" type="button" aria-expanded="false" aria-controls="paragraph-nav">
+            &#9776;
+          </button>
+          <nav id="paragraph-nav" class="paragraph-nav" aria-label="단락 바로가기">
+            <ul class="paragraph-nav__list" data-paragraph-nav></ul>
+          </nav>
+
+          <div class="page-content" itemprop="articleBody">
+            {% include anchor_headings.html html=content anchorClass="anchor-head" beforeHeading=true h_min=1 h_max=4 %}
           
           {% if page.tweet %}
           <p>Comments this article on 
             <a href="https://twitter.com/{{site.twitter}}/status/{{page.tweet}}">Twitter</a>.
           </p>
           {% endif %}
+          </div>
         </div>
 
 
@@ -140,6 +157,40 @@ layout: compress
 
     {% include footer.html %}
   </div>
+
 </body>
 
+  <script>
+
+  let paragraphlastScrollTop = 0;
+  let paragraphdelta = 15;
+  let paragraphToggle = document.querySelector('.paragraph-nav__toggle');
+
+  var paragraphdidScroll;
+
+  setInterval(function () {
+    if (!paragraphdidScroll) {
+      paragraphhasScrolled();
+      paragraphdidScroll = false;
+    }
+  }, 250);
+
+
+  function paragraphhasScrolled() {
+    let paragraphnowScrollTop =
+      document.body.scrollTop || document.documentElement.scrollTop;
+
+    if (Math.abs(paragraphlastScrollTop - paragraphnowScrollTop) <= paragraphdelta) {
+      return;
+    } else if (paragraphlastScrollTop - paragraphnowScrollTop < 0) {
+      paragraphToggle.classList.remove('showParagraph');
+      paragraphToggle.classList.add('hideParagraph');
+    } else if (paragraphnowScrollTop - paragraphlastScrollTop < 0) {
+      paragraphToggle.classList.remove('hideParagraph');
+      paragraphToggle.classList.add('showParagraph');
+    }
+    paragraphlastScrollTop = paragraphnowScrollTop;
+  }
+
+  </script>
 </html>
