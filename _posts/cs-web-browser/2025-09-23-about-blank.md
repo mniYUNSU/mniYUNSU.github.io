@@ -1,11 +1,11 @@
 ---
 layout: post
-title: about:blank은 왜 존재할까? 브라우저 공백 페이지 완전 정리
+title: about:blank은 왜 존재할까?
 date: 2025-09-29 10:00:00 +0900
 modified: 2025-09-29 10:00:00 +0900
 categories: [BROWSER]
 tags: [WEB, BROWSER, SECURITY, FRONTEND]
-description: about:blank 스킴의 기원부터 활용법, 보안 이슈까지 개발자가 알아야 할 포인트를 정리했다.
+description: about:blank 스킴의 기원부터 활용법, 보안 이슈까지 정리해보았다.
 ---
 
 브라우저 주소창에 `about:blank` 를 입력하면 언제나 빈 화면만 뜬다. 하지만 이 단순한 페이지는 웹이 동작하는 방식과 꽤 깊이 연결되어 있다. 브라우저는 새 탭을 초기화하고, 팝업을 열고, 잠재적으로 위험한 탐색을 차단할 때마다 이 페이지를 잠깐씩 거쳐 간다. 개발자 입장에서는 원인을 알기 어려운 "하얀 화면"의 정체가 바로 about:blank 인 경우가 많다.
