@@ -2,6 +2,7 @@
 layout: post
 title: '일본의 개발 프로세스'
 date: 2025-10-09 10:00:00 +0900
+modified: 2025-10-10 00:00:00 +0900
 categories: [Common, Japan]
 tags: [Japan, Culture]
 description: 일본 개발 조직의 전형적인 개발 흐름, 각 단계에서 쓰는 용어, 미리 알면 도움이 되는 문화를 정리했다.
