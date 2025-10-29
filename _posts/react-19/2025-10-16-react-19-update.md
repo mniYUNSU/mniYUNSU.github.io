@@ -3,9 +3,9 @@ layout: post
 title: React 19 업데이트 정리
 date: 2025-10-16 00:00:00 +0900
 categories: [React Essentials]
-tags: [React, Release Notes, Frontend]
+tags: [React, Frontend]
 description: React 19 주요 기능 정리
-modified: 2025-10-28 00:00:00 +07:00
+modified: 2025-10-29 00:00:00 +07:00
 ---
 
 ## 개요

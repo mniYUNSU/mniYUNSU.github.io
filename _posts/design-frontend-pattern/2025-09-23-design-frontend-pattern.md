@@ -3,8 +3,8 @@ layout: post
 title: 프론트엔드 개발에서 바로 쓰는 디자인 패턴 3가지
 date: 2025-09-23 10:00:00 +0900
 modified: 2025-09-23 10:00:00 +0900
-categories: [DESIGN PATTERN]
-tags: [DESIGN PATTERN, FRONTEND, REACT]
+categories: [Design Pattern]
+tags: [Design Pattern, Frontend, React]
 description: 조건문을 줄이고 컴포넌트를 정리하는 프론트엔드 친화 디자인 패턴을 정리했다.
 ---
 

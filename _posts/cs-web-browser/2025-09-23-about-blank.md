@@ -3,8 +3,8 @@ layout: post
 title: about:blank은 왜 존재할까?
 date: 2025-09-29 10:00:00 +0900
 modified: 2025-09-29 10:00:00 +0900
-categories: [BROWSER]
-tags: [WEB, BROWSER, SECURITY, FRONTEND]
+categories: [Browser]
+tags: [Web, Browser, Security, Frontend]
 description: about:blank 스킴의 기원부터 활용법, 보안 이슈까지 정리해보았다.
 ---
 

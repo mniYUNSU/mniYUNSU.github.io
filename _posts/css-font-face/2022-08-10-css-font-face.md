@@ -3,7 +3,7 @@ layout: post
 title: 조건부 font-face 적용 방법
 date: 2022-08-10 00:00:00 +07:00
 categories: [CSS Essentials]
-tags: [css]
+tags: [CSS]
 description: 조건부 font-face 적용 방법
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: 모바일 웹에서 필요한 css 속성 설정
 date: 2022-08-15 09:29:20 +07:00
 categories: [CSS Essentials]
-tags: [css]
+tags: [CSS]
 description: 웹 페이지를 개발하다 보면 모바일 웹 화면을 생각하고 속성을 추가로 정해줘야 한다.
 ---
 

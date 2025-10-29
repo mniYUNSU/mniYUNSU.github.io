@@ -3,7 +3,7 @@ layout: post
 title: css로 디바이스 판별하는 방법
 date: 2022-08-16 09:29:20 +07:00
 categories: [CSS Essentials]
-tags: [css]
+tags: [CSS]
 description: 반응형 웹 페이지 구성을 위해 css 엘리먼트를 디바이스에 따라 분기해야할 필요가 있다.
 ---
 

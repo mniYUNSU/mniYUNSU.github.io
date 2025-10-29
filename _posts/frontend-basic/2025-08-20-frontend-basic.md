@@ -2,8 +2,8 @@
 layout: post
 title: '프론트엔드 개발자로서 알아야 할 기본 지식'
 date: 2025-08-20 00:00:00 +07:00
-categories: [Front End Essentials]
-tags: [Front End, Interview]
+categories: [Frontend Essentials]
+tags: [Frontend, Interview]
 description: 평소에 갑자기 떠올랐지만 어떤 개념인지 명확히 설명할 수가 없었다. 생각나는 것들을 정리해보았다.
 ---
 

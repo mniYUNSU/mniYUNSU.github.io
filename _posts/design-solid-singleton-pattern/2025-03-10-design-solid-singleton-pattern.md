@@ -3,8 +3,8 @@ layout: post
 title: SOLID 원칙과 싱글턴 패턴
 date: 2025-03-10 09:29:20 +0700
 modified: 2025-03-10 08:49:47 +07:00
-categories: [DESIGN PATTERN]
-tags: [DESIGN PATTERN]
+categories: [Design Pattern]
+tags: [Design Pattern]
 description: SOLID 원칙과 싱글턴 패턴을 공부했다.
 ---
 
